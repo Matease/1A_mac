@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="EGit.KnownHosts">
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+		<item value="bitbucket.org"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://hudson.inp-toulouse.fr/projects_group/2022-1sn-tob/1sn-l/msigier/tps/-/tree/evaluations/mini-projet/evaluations"/>
+		<item value="https://hudson.inp-toulouse.fr/projects_group/2022-1sn-tob/1sn-x/user/tps.git"/>
+	</list>
+	<section name="GitImportWizard">
+	</section>
+</section>

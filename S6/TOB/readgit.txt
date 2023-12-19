@@ -1,0 +1,5 @@
+git add .
+Git commit -m"maj"
+Git push
+
+(Sinon faire git pull avant git pull)

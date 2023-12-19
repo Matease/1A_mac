@@ -1,0 +1,292 @@
+# Langage_algorithmique
+
+
+
+------
+
+## Déclaration de Constantes et Variables - Affectation :
+
+```
+Nom_constante : constante Type_constante <-- valeur_constante
+variable Nom_variable : Type_variable
+
+Nom_variable <-- valeur_variable
+```
+
+
+
+
+
+------
+
+## Entrées et Sorties :
+
+```
+Lire(Nom_variable)
+Ecrire(Expression)
+EcrireLn(Expression)
+```
+
+
+
+
+
+------
+
+## Structures de Contrôle :
+
+### Conditionnelles :
+
+```
+SI Condition ALORS
+	Séquence_alors
+SINON
+	Séquence_sinon
+FIN_SI
+```
+
+```
+SELON Expression DANS
+	Choix_1 => Séquence_1
+	Choix_2 => Séquence_2
+	...
+	Choix_n => Séquence_n
+	Autres => Séquence_autres
+FIN_SELON
+```
+
+
+
+### Répétitions :
+
+```
+POUR Indice DE Initial A Final PAS P FAIRE
+	Séquence
+FIN_POUR
+```
+
+```
+TANT_QUE Condition FAIRE
+	Séquence
+FIN_TANT_QUE
+```
+
+```
+REPETER
+	Séquence
+JUSQU'A Condition
+FIN_REPETER
+```
+
+
+
+
+
+------
+
+## Forme Générale d'un Programme :
+
+```
+(* Nom auteur *)
+(* Objectif ou spécification du programme *)
+PROGRAMME Nom_programme EST
+	déclaration de constantes
+	déclaration de types
+	déclaration de sous-programmes
+	déclaration de variables
+DEBUT
+	Instructions
+FIN Nom_programme
+```
+
+
+
+
+
+------
+
+## Déclaration de Sous-Programmes :
+
+### Procédures :
+
+```
+-------------------------------------------------------------------
+-- Nom : Nom_procédure
+-- Sémantique : Décrire ce que réalise la procédure (R0)
+-- Paramètres :
+--	Nom_param_1 : (In, In/Out, Out) Type;
+--	...
+--	Nom_param_n : (In, In/Out, Out) Type;
+-- Pré-condtions : Conditions sur les paramètres en entrée
+-- Post_conditions : Conditions sur les paramètres en sortie
+-------------------------------------------------------------------
+PROCEDURE Nom_procédure (Nom_param_1 : (In, In/Out, Out) Type; ; ... ; 
+					   Nom_param_n : (In, In/Out, Out) Type) EST
+	Déclaration de variables locales
+DEBUT
+	Instructions du corps de la procédure
+FIN Nom_procédure
+```
+
+
+
+### Fonctions :
+
+```
+-------------------------------------------------------------------
+-- Nom : Nom_fonction
+-- Sémantique : Décrire ce que réalise la fonction (R0)
+-- Paramètres :
+--	Nom_param_1 : In Type;
+--	...
+--	Nom_param_n : In Type;
+-- Type_retour : Type_retour
+-- Pré-condtions : Conditions sur les paramètres en entrée
+-- Post_conditions : Conditions sur le résultat retourné
+-------------------------------------------------------------------
+FONCTION Nom_fonction (Nom_param_1 : In Type; ; ... ; 
+					 Nom_param_n : In Type) RETOURNE Type_retour EST
+	Déclaration de variables locales
+DEBUT
+	Instruction de calcul du résultat par une expression Result
+	RETOURNE Result
+FIN Nom_fonction
+```
+
+
+
+
+
+------
+
+## Déclaration de Types :
+
+### Énumération :
+
+```
+TYPE Nom_type EST ENUMERATION (Val_1, Val_2, ... , Val_3)
+```
+
+
+
+### Enregistrement :
+
+```
+TYPE Nom_type EST ENREGISTREMENT
+	Nom_variable_1 : Type_1
+	Nom_variable_2 : Type_2
+	...
+	Nom_variable_3 : Type_3
+FIN_ENREGISTREMENT
+```
+
+
+
+### Tableaux :
+
+```
+TYPE Nom_type EST TABLEAU(1..Borne_max) DE Type
+TYPE Nom_type EST TABLEAU(1..Max_1, 1..Max_2) DE Type
+TYPE Nom_type EST TABLEAU(1..Max_1, 1..Max_2, ... , 1..Max_n) DE Type
+
+Tab(i) <-- Valeur
+Tab(i..j) <-- (Val_i, ... , Val_j)
+Tab <-- (i..j => Val_1, ... , k..l => Val_n)
+Tab <-- (i..j => Val_1, ... , k..l => Val_n, Autres => Val_autres)
+```
+
+
+
+
+
+------
+
+## Modules :
+
+### Interface :
+
+```
+-------------------------------------------------------------------
+-- nom : Nom_paquetage
+-- sémantique : ...
+-------------------------------------------------------------------
+PAQUETAGE Nom_paquetage EST
+	déclaration de types
+	déclaration de sous-programmes
+
+	-- Spécifications de Nom_procédure_1 :
+	PROCEDURE Nom_procédure_1 (Nom_param_1 : (In, In/Out, Out) Type; ; ... ; 
+							Nom_param_n : (In, In/Out, Out) Type)
+	...
+
+	-- Spécifications de Nom_fonction_1 :
+	FONCTION Nom_fonction_1 (Nom_param_1 : In Type; ; ... ; 
+						   Nom_param_n : In Type) RETOURNE Type_retour
+	...
+FIN Nom_paquetage
+```
+
+
+
+### Corps :
+
+```
+-------------------------------------------------------------------
+-- nom : Nom_paquetage
+-- sémantique : ...
+-------------------------------------------------------------------
+PAQUETAGE Nom_paquetage EST
+	déclaration de types
+	déclaration de sous-programmes
+
+	PROCEDURE Nom_procédure (Nom_param_1 : (In, In/Out, Out) Type; ; ... ; 
+						 	 Nom_param_n : (In, In/Out, Out) Type) EST
+		Déclaration de variables locales
+	DEBUT
+		Instructions du corps de la procédure
+	FIN Nom_procédure
+	...
+	
+	FONCTION Nom_fonction (Nom_param_1 : In Type; ; ... ; 
+					   	   Nom_param_n : In Type) RETOURNE Type_retour EST
+		Déclaration de variables locales
+	DEBUT
+		Instruction de calcul du résultat par une expression Result
+		RETOURNE Result
+	FIN Nom_fonction
+	...
+FIN Nom_paquetage
+```
+
+
+
+### Utilisation :
+
+```
+AVEC
+	Nom_paquetage
+
+PROGRAMME Nom_programme EST
+	...
+DEBUT
+	...
+FIN Nom_programme
+```
+
+
+
+
+
+------
+
+## Pointeurs :
+
+```
+TYPE Type_pointeur EST POINTEUR SUR Type
+
+Nom_pointeur : Type_pointeur
+Nom_pointeur <-- Null
+
+Nom_pointeur^ 	-- est de type Type_pointeur et représente
+			   -- la valeur en case mémoire
+```

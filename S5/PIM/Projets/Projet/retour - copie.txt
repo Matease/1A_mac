@@ -1,0 +1,21 @@
+* Pas de manuel.
+* Pas de fichiers d'exemples rendus.
+
+Adresse_IP:
+
+* Il faut vérifier que c'est bien un point qui sépare deux nombres et signaler
+  une erreur dans le cas contraire.
+
+routeur:
+
+* Les options de la ligne de commande ne sont pas traités.
+Ceci est fait
+
+table:
+
+* Est-ce que toutes les opérations sont utiles ?
+* On pourrait avoir deux fois la même adresse de destination avec deux routes
+  différentes.
+* Le_Masque, L_Interface : pas très efficace car on veut l'un, on veut
+  généralement l'autre.
+* Chercher_Route : Mauvais nom pour une fonction.

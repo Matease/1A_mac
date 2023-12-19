@@ -1,0 +1,30 @@
+cache_arbre.adb:6:14: error: missing body for "Taille_Arbre" declared at cache_arbre.ads:18
+cache_arbre.adb:6:14: error: missing body for "Supprimer_LRU_Arbre" declared at cache_arbre.ads:23
+cache_arbre.adb:7:05: error: "Taille_Arbre" conflicts with declaration at cache_arbre.ads:18
+cache_arbre.adb:78:15: error: expected private type "T_adresse_ip" defined at adresse_ip.ads:8
+cache_arbre.adb:78:15: error: found type universal integer
+cache_arbre.adb:94:53: error: "POIDS_FORT" is not visible (more references follow)
+cache_arbre.adb:94:53: error: non-visible (private) declaration at adresse_ip.ads:35
+cache_arbre.adb:105:91: error: expected type universal integer
+cache_arbre.adb:105:91: error: found private type "T_adresse_ip" defined at adresse_ip.ads:8
+cache_arbre.adb:107:91: error: expected type universal integer
+cache_arbre.adb:107:91: error: found private type "T_adresse_ip" defined at adresse_ip.ads:8
+cache_arbre.adb:114:16: error: "Sous_Route_Presente_Arbre" is undefined
+cache_arbre.adb:126:39: error: expected type universal integer
+cache_arbre.adb:126:39: error: found private type "T_adresse_ip" defined at adresse_ip.ads:8
+cache_arbre.adb:135:102: error: expected type universal integer
+cache_arbre.adb:135:102: error: found private type "T_adresse_ip" defined at adresse_ip.ads:8
+cache_arbre.adb:149:102: error: expected type universal integer
+cache_arbre.adb:149:102: error: found private type "T_adresse_ip" defined at adresse_ip.ads:8
+cache_arbre.adb:155:98: error: expected type universal integer
+cache_arbre.adb:155:98: error: found private type "T_adresse_ip" defined at adresse_ip.ads:8
+cache_arbre.adb:158:98: error: expected type universal integer
+cache_arbre.adb:158:98: error: found private type "T_adresse_ip" defined at adresse_ip.ads:8
+cache_arbre.adb:165:43: error: expected private type "T_adresse_ip" defined at adresse_ip.ads:8
+cache_arbre.adb:165:43: error: found type universal integer
+cache_arbre.adb:167:91: error: expected type "Standard.Integer"
+cache_arbre.adb:167:91: error: found procedure name instead of function
+cache_arbre.adb:173:47: error: expected private type "T_adresse_ip" defined at adresse_ip.ads:8
+cache_arbre.adb:173:47: error: found type universal integer
+cache_arbre.adb:180:09: error: "Enregistrer" is undefined
+cache_arbre.ads:34:33: error: extra "(" ignored

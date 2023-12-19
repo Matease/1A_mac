@@ -1,0 +1,70 @@
+Algorithme de Gauss-Newton
+--------------------------
+residu_C14(beta0, Donnees)
+       4.9877
+       4.4516
+       3.8127
+       3.3918
+       3.1968
+       2.8347
+       2.6741
+
+J_residu_C14(beta0, Donnees)
+     -0.95123       4756.1
+     -0.90484       9048.4
+     -0.81873        16375
+     -0.74082        22225
+     -0.67032        26813
+     -0.60653        30327
+     -0.53259        33553
+
+--------------------------------------------------------------------------------------------
+     nb_iter         A0        lambda    ||f'(beta)||     f(beta)    ||delta||     exitflag 
+--------------------------------------------------------------------------------------------
+  Columns 1 through 3
+
+            0           10       0.0001
+
+  Columns 4 through 5
+
+   4.6322e+05        48.07
+
+     0     0     0     0     0     0     0
+
+     0     0     0     0     0     0     0
+
+     0     0     0     0     0     0     0
+
+     0     0     0     0     0     0     0
+
+     0     0     0     0     0     0     0
+
+     0     0     0     0     0     0     0
+
+     0     0     0     0     0     0     0
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', '/Applications/MATLAB_R2022b.app/toolbox/matlab/scribe/legend.m', 592)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2022b.app/toolbox/matlab/scribe/legend.m',592,0)">line 592</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/Applications/MATLAB_R2022b.app/toolbox/matlab/scribe/legend.m', 319)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2022b.app/toolbox/matlab/scribe/legend.m',319,0)">line 319</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/Applications/MATLAB_R2022b.app/toolbox/matlab/scribe/legend.m', 263)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2022b.app/toolbox/matlab/scribe/legend.m',263,0)">line 263</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Modelisation_C14', '/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-C14/Modelisation_C14.m', 158)" style="font-weight:bold">Modelisation_C14</a> (<a href="matlab: opentoline('/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-C14/Modelisation_C14.m',158,0)">line 158</a>)] 
+     0     0     0     0     0     0     0
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', '/Applications/MATLAB_R2022b.app/toolbox/matlab/scribe/legend.m', 592)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2022b.app/toolbox/matlab/scribe/legend.m',592,0)">line 592</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/Applications/MATLAB_R2022b.app/toolbox/matlab/scribe/legend.m', 319)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2022b.app/toolbox/matlab/scribe/legend.m',319,0)">line 319</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/Applications/MATLAB_R2022b.app/toolbox/matlab/scribe/legend.m', 263)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2022b.app/toolbox/matlab/scribe/legend.m',263,0)">line 263</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Modelisation_C14', '/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-C14/Modelisation_C14.m', 158)" style="font-weight:bold">Modelisation_C14</a> (<a href="matlab: opentoline('/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-C14/Modelisation_C14.m',158,0)">line 158</a>)] 
+--------------------------------------------------------------------------------------------
+Algorithme de Newton
+--------------------
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('horzcat')" style="font-weight:bold">horzcat</a>
+Dimensions of arrays being concatenated
+are not consistent.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Modelisation_C14>Hess_f_C14', '/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-C14/Modelisation_C14.m', 308)" style="font-weight:bold">Modelisation_C14>Hess_f_C14</a> (<a href="matlab: opentoline('/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-C14/Modelisation_C14.m',308,0)">line 308</a>)
+    H_resi = [0 donnees(:,1)*exp(-beta(2));donnees(:,1)*exp(-beta(2)) -beta(1)*(donnees(:,1)^2)*exp(-beta(2)*donnees(:,2))];
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Modelisation_C14', '/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-C14/Modelisation_C14.m', 176)" style="font-weight:bold">Modelisation_C14</a> (<a href="matlab: opentoline('/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-C14/Modelisation_C14.m',176,0)">line 176</a>)
+[H, ~, ~] = Hess_f_C14(beta0, Donnees, ...
+} 

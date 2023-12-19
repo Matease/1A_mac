@@ -1,0 +1,2817 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<!--[if lte IE 7]> <html class="ie7 oldie no-js" xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"> <![endif]-->
+<!--[if IE 8]> <html class="ie8 oldie no-js" xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"> <!--<![endif]-->
+
+<head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- On interdit le mode de compatibilite IE  -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<!-- Gestion des favicons : soit le lot par defaut soit le lot depose sur l espace FTP dedie  -->
+
+
+<link rel="apple-touch-icon" sizes="57x57" href="https://favicon-ksup.univ-grenoble-alpes.fr/dev-master-informatique/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://favicon-ksup.univ-grenoble-alpes.fr/dev-master-informatique/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://favicon-ksup.univ-grenoble-alpes.fr/dev-master-informatique/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://favicon-ksup.univ-grenoble-alpes.fr/dev-master-informatique/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://favicon-ksup.univ-grenoble-alpes.fr/dev-master-informatique/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://favicon-ksup.univ-grenoble-alpes.fr/dev-master-informatique/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://favicon-ksup.univ-grenoble-alpes.fr/dev-master-informatique/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://favicon-ksup.univ-grenoble-alpes.fr/dev-master-informatique/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://favicon-ksup.univ-grenoble-alpes.fr/dev-master-informatique/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="https://favicon-ksup.univ-grenoble-alpes.fr/dev-master-informatique/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://favicon-ksup.univ-grenoble-alpes.fr/dev-master-informatique/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="https://favicon-ksup.univ-grenoble-alpes.fr/dev-master-informatique/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://favicon-ksup.univ-grenoble-alpes.fr/dev-master-informatique/favicon-16x16.png">
+
+
+<meta name="description" content="" />
+<meta name="DC.Description" lang="fr-FR" content="" />
+<meta property="og:description" content="" />
+<meta property="og:title" content="Master informatique" />
+<meta property="og:site_name" content="Master informatique" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://master-informatique.univ-grenoble-alpes.fr/master-informatique/accueil-master-informatique-1033491.kjsp?RH=1467362346877" />
+<meta property="og:image" content="https://master-informatique.univ-grenoble-alpes.fr/uas/dev-master-informatique/LOGO/logo-EPE-2020-couleurs.png" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Master informatique</title><link rel="canonical" href="https://master-informatique.univ-grenoble-alpes.fr/master-informatique/accueil-master-informatique-1033491.kjsp" />
+
+<link rel="icon" type="image/png" href="https://favicon-ksup.univ-grenoble-alpes.fr/dev-master-informatique/favicon-16x16.png" />
+
+<meta http-equiv="pragma" content="no-cache" />
+
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.Title" content="Master informatique" />
+<meta name="DC.Creator" content="Severine Fremondiere" />
+<meta name="DC.Description" lang="fr-FR" content="" />
+<meta name="DC.Publisher" content="Severine Fremondiere" />
+<meta name="DC.Date.created" scheme="W3CDTF" content="20220315 11:52:13.0" />
+<meta name="DC.Date.modified" scheme="W3CDTF" content="20221128 15:21:49.0" />
+<meta name="DC.Language" scheme="RFC3066" content="fr-FR" />
+<meta name="DC.Rights" content="Copyright &copy; Master informatique" />
+
+<meta name="author" lang="fr_FR" content="Université Grenoble Alpes" />
+<meta name="Date-Creation-yyyymmdd" content="20220315 11:52:13.0" />
+<meta name="Date-Revision-yyyymmdd" content="20221128 15:21:49.0" />
+<meta name="copyright" content="Copyright &copy; Master informatique" />
+<meta name="reply-to" content="webmaster@univ-grenoble-alpes.fr" />
+<meta name="category" content="Internet" />
+<meta name="robots" content="index, follow" />
+<meta name="distribution" content="global" />
+<meta name="identifier-url" content="https://master-informatique.univ-grenoble-alpes.fr/" />
+<meta name="resource-type" content="document" />
+<meta name="expires" content="-1" />
+
+<meta name="google-site-verification" content="" />
+
+<meta name="Generator" content="K-Sup (6.06.23)" />
+<meta name="Formatter" content="K-Sup (6.06.23)" />
+
+<meta name="viewport" content="width=device-width" />
+
+
+
+
+
+
+  <link rel="stylesheet" type="text/css" media="screen" href="https://master-informatique.univ-grenoble-alpes.fr/wro/styles_jsp_unique_epe/fdecdd48a7b46f7c503d5091a65cf06bb4e61003.css"/>
+
+
+
+  <link rel="stylesheet" type="text/css" media="screen" href="https://master-informatique.univ-grenoble-alpes.fr/wro/styles_jsp_unique_satellite/3ef8afde5566c1e2841ddefff3d35ae6872482da.css"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" media="screen" href="https://master-informatique.univ-grenoble-alpes.fr/wro/jQueryCSS/5c19e5afe10914bfafdc9b20b85955dfa73dcee5.css"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style type="text/css" media="screen">
+
+
+
+  
+  
+
+
+
+.bg_blanc,
+.couleur_texte_fond_blanc,
+.bg_blanc a.couleur_texte_fond_blanc,
+.bg_blanc a.lien_couleur_texte,
+.bg_blanc a[class^="lien"].lien_couleur_texte,
+[id="navigation"] li > a,
+.tag__arbre__choix--synthese a.tag__arbre__bloc,
+.tag__arbre__choix--synthese a.tag__arbre__bloc:hover,
+.card.cartetoolbox .carte-req-liste-col-6 .liste__objets__style0012,
+[id="contenu-encadres"] [class*="bloc__bg__"] form,
+.choix-profils h3,
+#contenu-encadres div[class*="bg_c_"] .choix-profils a,
+[id="contenu-encadres"] .choix-profils h3.bg__blanc  a[class^="lien"],
+.liste__objets__style0065 .liste__objets__resume,
+.containerlist ul li div.couleur_texte_fond_blanc_hover:hover,
+[id="contenu-encadres"] .bloc__bg__colore .grid__container__multi__col.liste__objets,
+[id="contenu-encadres"] .bloc__bg__colore .grid__container__multi__col.liste__objets .liste__objets__type__thematique  {
+  color:#363636;
+}
+
+
+  
+  
+
+
+
+
+.liens_fond_blanc,
+.liens_fond_blanc_hover:hover,
+.bg_blanc a,
+.bg_blanc a[class^="lien"],
+.bg_blanc button,
+.bg_blanc a.couleur_liens_fond_blanc_survol:hover,
+.bg_blanc a.couleur_liens_survol:hover,
+.bg_blanc .liste__objets__style0012 .liste__objets__agenda__date:hover a,
+.bg_blanc .liste__objets__style0012 .liste__objets__agenda__date:hover a span,
+.card.cartetoolbox .carte-req-liste-col-6 .liste__objets__style0012 .liste__objets__agenda__info a,
+.card.cartetoolbox .carte-req-liste-col-6 .liste__objets__style0012 .liste__objets__agenda__date:hover a span,
+.container_depliable_bouton .icon-plus:hover,
+.validation input.reset,
+.search-metadata__search-input .reset,
+.mobile-recherche-contenu-criteres a,
+.containerlist__lien__reset span,
+[id="super__bandeau"] .bandeau__boites__recherche__profils__liste ul li a,
+[id="super__bandeau"] .bandeau__boites__recherche__profils__liste ul li a,
+#contenu-encadres div[class*="bg_c_"] .choix-profils ul li a,
+#contenu-encadres div.bg_c_dominante .choix-profils .choix-3.choix-valide a.action-submit,
+#contenu-encadres div.bg_c_secondaire .choix-profils .choix-3.choix-valide a.action-submit,
+#contenu-encadres div[class*="bg_c_"] .choix-profils,
+.skin_fo_unique_ligne__avec__bg__image .choix-3.choix-valide a.action-submit:hover,
+#contenu-encadres .choix-profils .icon,
+#contenu-encadres .liste__pour__carousel__titre em a,
+
+.liste__objets__style5005 .carousel__lire__la__suite__container a,
+.body__modele--satellite-ui .nav__desktop__niv2 a,
+.body__modele--ui .nav__desktop__niv2 a,
+.body__modele--intranet-ui .nav__desktop__niv2 a,
+.body__modele--sciencespo .nav__desktop__niv2 a,
+[id="contenu-encadres"]  .liste__objets .liste__objets__style0065 a,
+[id="contenu-encadres"]  .liste__objets .liste__objets__style0065 a.liste__objets__lire__la__suite__inline,
+.bg_blanc .bg_c_dominante .call__to__action a,
+.bg_blanc .bg_c_dominante .carte__lien__chevron__2 a,
+.bg_blanc .bg_c_dominante .carte__lien__chevron__3 a,
+.bg_blanc .bg_c_secondaire .call__to__action a,
+.bg_blanc .bg_c_secondaire .carte__lien__chevron__2 a,
+.bg_blanc .bg_c_secondaire .carte__lien__chevron__3 a,
+.liste__objets__style0032 a .icon,
+.bg_c_neutre.bloc__bg__colore .liste__objets__style0032 a .icon,
+.bg_c_neutre.bloc__bg__colore .liste__objets__style0032 a[class^="lien"],
+[id="contenu-encadres"] form[id="search_query_input"] p.search__reset input,
+[id="navigation"] li > a:hover,
+[id="navigation"] li.menu_secondaire-actif > a,
+[id="navigation"] li.sousmenu_secondaire-actif > a,
+.bloc__bg__colore .liste__objets.grid__container__multi__col  .liste__objets__vignette_deco2 a,
+.bloc__bg__colore .liste__objets.grid__container__multi__col__special .liste__objets__carte__4 a
+{
+  color:#198752;
+}
+
+
+
+.bg_liens_fond_dominante,
+.bg_liens_fond_dominante_hover:hover,
+.choix-profils li:hover,
+body:not(.ficheaccueil) [id="contenu-encadres"] .arbre-item-active li:hover,
+body:not(.ficheaccueil) [id="contenu-encadres"] .arbre-item-active li:hover a,
+body:not(.ficheaccueil) [id="contenu-encadres"] .tag__arbre__choix--en--cours a:hover,
+body:not(.ficheaccueil) [id="contenu-encadres"] .tag__arbre__choix--en--cours > span:hover,
+.bg_blanc .liste__objets__style0012 .liste__objets__agenda__date,
+.card.cartetoolbox .carte-req-liste-col-6 .liste__objets__style0012 .liste__objets__agenda__date,
+.container_depliable_bouton .icon-minus:hover ,
+.validation input.reset:hover,
+.search-metadata__search-input .reset:hover,
+.mobile-recherche-contenu-criteres a:hover,
+.containerlist__lien__reset span:hover,
+[id="super__bandeau"] .bandeau__boites__recherche__profils__liste li:hover,
+[id="super__bandeau"] [id="menus-notifications"] li:hover,
+#contenu-encadres div.bg_c_dominante .choix-profils .choix-3.choix-valide a.action-submit:hover,
+#contenu-encadres div.bg_c_secondaire .choix-profils .choix-3.choix-valide a.action-submit:hover,
+.bg_blanc .bg_c_dominante .call__to__action a:hover,
+.bg_blanc .bg_c_dominante .carte__lien__chevron__2 a:hover,
+.bg_blanc .bg_c_dominante .carte__lien__chevron__3 a:hover,
+.bg_blanc .bg_c_secondaire .call__to__action a:hover,
+.bg_blanc .bg_c_secondaire .carte__lien__chevron__2 a:hover,
+.bg_blanc .bg_c_secondaire .carte__lien__chevron__3 a:hover,
+button.panier-modale__body__action-annuler:hover,
+button.panier-modale__body__action-non:hover,
+[id="contenu-encadres"] form[id="search_query_input"] p.search__reset input:hover,
+[id="contenu-encadres"] form.form__bu p.validation input.reset:hover
+    {
+    background: #198752;
+  }
+
+
+
+.brd-2_c_liens_fond_dominante,
+.bg_blanc .liste__objets__style0012 .liste__objets__agenda__date,
+.bg_blanc .liste__objets__style0012 .liste__objets__agenda__date:hover,
+.card.cartetoolbox .carte-req-liste-col-6 .liste__objets__style0012 .liste__objets__agenda__date,
+.card.cartetoolbox .carte-req-liste-col-6 .liste__objets__style0012 .liste__objets__agenda__date:hover,
+.container_depliable_bouton .icon-minus:hover,
+.validation input.reset,
+.mobile-recherche-contenu-criteres a,
+.search-metadata__search-input .reset,
+.containerlist__lien__reset span,
+div.bg__blanc .choix-3.choix-valide a.action-submit:hover,
+#contenu-encadres div.bg_c_neutre .choix-profils .choix-3.choix-valide a.action-submit:hover,
+.skin_fo_unique_ligne__avec__bg__image .choix-3.choix-valide a.action-submit:hover ,
+.skin_fo_unique__ligne__video__bg .choix-3.choix-valide a.action-submit:hover,
+.call__to__action a:hover,
+.carte__lien__chevron__2 a:hover,
+.carte__lien__chevron__3 a:hover,
+[id="contenu-encadres"] form input.term-aggregation__item-list__appliquer:hover,
+[id="contenu-encadres"] form[id="search_query_input"] p.search__reset input,
+[id="contenu-encadres"] form[id="search_query_input"] input.submit:hover,
+[id="contenu-encadres"] form.form__bu p.validation input.reset,
+.cartetoolbox .moteur__contenu__interne  [type="submit"]:hover
+{
+    border:2px solid #198752;
+  }
+
+
+
+
+  .body__modele--ui.accueil a:hover .arrow-up,
+  .body__modele--ui.accueil .nav__desktop__niv1:hover .arrow-up,
+  .body__modele--ui.accueil .menu1-actif .arrow-up {
+     width: 0;
+     height: 0;
+     border-left: 7px solid transparent;
+     border-right: 7px solid transparent;
+     border-bottom: 12px solid #198752;
+   }
+
+
+
+
+  
+  
+
+
+
+
+.bg_c_dominante,
+.bg_c_dominante_hover:hover,
+.menu_mobile_boutons button.mobile-notifs:hover .notif__nbre,
+.bg_blanc .bg_c_dominante .liste__objets__style0012 .liste__objets__agenda__date:hover,
+.bg_blanc .bg_c_neutre .liste__objets__style0012 .liste__objets__agenda__date,
+.validation input.submit,
+.tag__arbre__choix--en--cours__annulation.reset,
+.tag__arbre__choix--en--cours__annulation.reset:hover,
+.mobile-recherche-contenu-form input.submit,
+.search-metadata__search-input .submit:hover,
+.search-metadata__search-input .submit,
+.reseauxsociauxCard .onglet:hover .onglet_libelle_desktop,
+.reseauxsociauxCard .onglet.onglet_rs_actif .onglet_libelle_desktop,
+.skin_fo_unique_ligne__avec__bg__image .choix-3.choix-valide a.action-submit,
+.skin_fo_unique__ligne__video__bg .choix-3.choix-valide a.action-submit,
+div.bg__blanc .choix-3.choix-valide a.action-submit,
+div.bg_c_neutre .choix-3.choix-valide a.action-submit,
+.bg_c_neutre .carte__lien__chevron__2 a,
+.bg_c_neutre .carte__lien__chevron__3 a,
+.card.brd-1_gris_clair .carte__lien__chevron__2 a,
+.card.brd-1_gris_clair .carte__lien__chevron__3 a,
+.call__to__action a,
+.carte__lien__chevron__2 a,
+.carte__lien__chevron__3 a,
+.panier-modale__body__actions button.panier-modale__body__action-ajouter,
+.panier-modale__body__actions_suppression button.panier-modale__body__action-oui,
+.bg_c_secondaire.bloc__bg__colore .liste__objets__style0032 a .icon:hover {
+  background-color: #198752;
+}
+
+
+a.liens_actifs_dominante,
+.bg_blanc a.liens_actifs_dominante,
+a.liens_survol_dominante:hover,
+.bg_c_secondaire a.liens_survol_dominante:hover,
+button.liens_survol_dominante:hover,
+.validation input.submit:hover,
+.bg_blanc .bg_c_secondaire a:hover,
+.bg_blanc .bg_c_secondaire a.liste__objets__lire__la__suite__inline:hover,
+.bg_blanc .bg_c_secondaire .liste__objets__courriel a:hover,
+.c_dominante,
+.bg_blanc .bg_c_secondaire .liste__objets__style0012 .liste__objets__agenda__info a:hover,
+.bg_blanc .bg_c_dominante .liste__objets__style0012 .liste__objets__agenda__date a,
+.bg_blanc .bg_c_neutre .liste__objets__style0012 .liste__objets__agenda__date:hover a span,
+.menu_mobile_boutons button:hover,
+.menu_mobile_boutons button.menu_mobile_boutons-actif,
+.menu_mobile_boutons .notif__nbre,
+.menu_mobile .menu__traductions li:hover,
+.menu_mobile .menu__traductions li:hover a span,
+.reseauxsociauxCard .onglet .onglet_libelle_desktop,
+[id="mobile-recherche"] .mobile-recherche-contenu-form input.submit:hover,
+.search-metadata__search-input .submit:hover,
+.elastic_plier-deplier__contenu input[type="submit"]:hover,
+[id="bandeau"] .bandeau__boites__recherche__simple button:hover,
+div.bg__blanc .choix-3.choix-valide a.action-submit:hover,
+#contenu-encadres div.bg_c_neutre .choix-profils .choix-3.choix-valide a.action-submit:hover,
+.skin_fo_unique_ligne__avec__bg__image .choix-3.choix-valide a.action-submit:hover,
+#contenu-encadres.bg_blanc .choix-profils .choix-3.choix-valide a.action-submit:hover,
+.bg_c_dominante .liste__objets .liste__objets__style0022 a.liste__objets__lire__la__suite__inline:hover,
+.bg_c_neutre .carte__lien__chevron__2 a:hover,
+.bg_c_neutre .carte__lien__chevron__3 a:hover,
+.card.brd-1_gris_clair .carte__lien__chevron__2 a:hover,
+.card.brd-1_gris_clair .carte__lien__chevron__3 a:hover,
+.bg_blanc .call__to__action a:hover,
+.bg_blanc .carte__lien__chevron__2 a:hover,
+.bg_blanc .carte__lien__chevron__3 a:hover,
+.bg_c_neutre div.call__to__action a:hover,
+.savesearch-actions button:hover,
+button.panier-modale__body__action-ajouter:hover,
+button.panier-modale__body__action-oui:hover,
+.fenetre-partage-url p button:hover,
+.element_couleur_principale_hover:hover,
+.bg_c_secondaire .liste__objets__style0047 .icon:hover,
+.bg_c_dominante .liste__objets__style0032 .icon,
+.bg_blanc .bg_c_dominante li.liste__objets__style0032 .liste__objets__lien__icomoon a[class^="lien"] span,
+.bg_blanc .bg_c_secondaire .liste__objets__style0024 a[class^="lien"].lien_couleur_texte:hover,
+.term-aggregation__item-list__appliquer:hover,
+[id="contenu-encadres"] form[id="search_query_input"] p.search__validation input:hover,
+[id="contenu-encadres"] form.form__bu p.validation input:hover,
+.cartetoolbox .moteur__contenu__interne  [type="submit"]:hover  {
+ color:#198752;
+}
+
+
+
+.brd-2_c_dominante,
+.brd-2_c_principale,
+.bg_blanc .bg_c_neutre .liste__objets__style0012 .liste__objets__agenda__date,
+.bg_blanc .bg_c_neutre .liste__objets__style0012 .liste__objets__agenda__date:hover,
+.validation input.submit,
+.validation input.submit:hover,
+[id="bandeau"] .bandeau__boites__recherche__simple button:hover,
+.reseauxsociauxCard .onglet  .onglet_libelle_desktop,
+.mobile-recherche-contenu-form input.submit,
+.mobile-recherche-contenu-form input.submit:hover,
+.search-metadata__search-input .submit:hover,
+.elastic_plier-deplier__contenu input[type="submit"],
+.savesearch-actions button:hover,
+button.panier-modale__body__action-ajouter:hover,
+button.panier-modale__body__action-oui:hover,
+.fenetre-partage-url p button:hover,
+[id="contenu-encadres"] form[id="search_query_input"] p.search__validation input:hover,
+[id="contenu-encadres"] form.form__bu p.validation input:hover {
+  border: 2px solid #198752;
+}
+
+.filet__deco__motif::before,
+.resume__fiche::before,
+.bloc__image__titre h3:first-child::after,
+.carte__titre__calistoga__avec__filet::after,
+.liste__traductions__miroir__before__resume.liste__traductions__miroir::before {
+  border-bottom: 8px solid #198752;
+}
+
+.toolbox .container_depliable_ouvert,
+.offresstagesemplois__info {
+  border-left: 8px solid #198752;
+}
+
+.brd-top-8_c_dominante {
+  border-top: 8px solid #198752;
+}
+
+.brd-top-6_c_principale {
+  border-top: 6px solid #198752;
+}
+
+
+
+
+.body__modele--satellite-ui .arrow-up,
+.body__modele--intranet-ui .arrow-up,
+.body__modele--intranet-ui .menu1-actif.triangle_cache .arrow-up {
+ width: 0;
+ height: 0;
+ border-left: 7px solid transparent;
+ border-right: 7px solid transparent;
+
+ border-bottom: 12px solid #198752;
+}
+
+
+  
+  
+
+
+
+
+
+.bg_c_dominante,
+.bg_c_dominante a.lien_couleur_texte,
+.bg_c_dominante a[class^="lien"].lien_couleur_texte,
+.bg_c_dominante_hover:hover,
+[id="contenu-encadres"] .bg_c_dominante .liste__objets .liste__objets__type__thematique,
+a.couleur_texte_fond_principale {
+  color:#ffffff;
+}
+
+.fond_texte_bg_c_dominante {
+  background: #ffffff;
+}
+
+
+
+
+.bg_c_dominante .carte__titre__calistoga__avec__filet::after {
+  border-bottom: 8px solid #ffffff;
+}
+
+
+  
+  
+
+
+
+
+
+.liens_fond_dominante,
+.bg_c_dominante a,
+.bg_c_dominante_hover:hover a,
+.bg_c_dominante_hover:hover a > span,
+.bg_c_dominante a[class^="lien"],
+.bg_c_dominante button,
+.bg_c_dominante .liste__objets em a,
+.bg_c_dominante .liste__objets  .liste__objets__courriel a,
+.bg_c_dominante .liste__objets  a.liste__objets__lire__la__suite__inline,
+.bandeau__boites__recherche__simple  button.bg_c_dominante,
+.validation input.submit,
+button.bg_c_dominante,
+.bg_blanc .bg_c_dominante .liste__objets__style0012 .liste__objets__agenda__info a,
+.bg_blanc .bg_c_dominante .liste__objets__style0012 .liste__objets__agenda__date:hover a,
+.bg_blanc .bg_c_dominante .liste__objets__style0012 .liste__objets__agenda__date:hover a span,
+.bg_blanc .bg_c_neutre .liste__objets__style0012 .liste__objets__agenda__date a,
+.reseauxsociauxCard .onglet:hover .onglet_libelle_desktop,
+.reseauxsociauxCard .onglet.onglet_rs_actif .onglet_libelle_desktop,
+[id="mobile-recherche"] .mobile-recherche-contenu-form input.submit,
+ .search-metadata__search-input .submit,
+.elastic_plier-deplier__contenu input[type="submit"],
+div.bg__blanc .choix-3.choix-valide a.action-submit,
+#contenu-encadres div.bg_c_neutre .choix-profils .choix-3.choix-valide a.action-submit,
+#contenu-encadres.bg_blanc .choix-profils .choix-3.choix-valide a.action-submit,
+.carousel__modele2__telecommande,
+.carousel__modele5__telecommande,
+#skin_fo_unique__ligne__video__bg__remote,
+.mobile-menu-contenu--principal .icon-circle-right,
+.menu_mobile_boutons button.mobile-notifs:hover .notif__nbre,
+.bg_c_secondaire .liste__objets .liste__objets__style0022 a,
+.bg_c_secondaire .liste__objets .liste__objets__style0022 a.liste__objets__lire__la__suite__inline,
+.bg_c_neutre .liste__objets .liste__objets__style0022 a,
+.bg_c_neutre .liste__objets .liste__objets__style0022 a.liste__objets__lire__la__suite__inline,
+.bg_blanc .call__to__action a,
+.bg_blanc .carte__lien__chevron__2 a,
+.bg_blanc .carte__lien__chevron__3 a,
+.bg_c_neutre div.call__to__action a,
+.bg_blanc li.liste__objets__style0032 .liste__objets__lien__icomoon a[class^="lien"] span,
+[id="contenu-encadres"] form.form__bu p.validation input.reset:hover   {
+  color:#ffffff;
+}
+
+
+
+.bg_c_liens_dominante,
+.menu_mobile_boutons button:hover,
+.menu_mobile_boutons button.menu_mobile_boutons-actif,
+.menu_mobile_boutons .notif__nbre,
+.menu_mobile .menu__traductions li:hover,
+.menu_mobile .menu__traductions li:hover a span,
+.bg_blanc .bg_c_dominante .liste__objets__style0012 .liste__objets__agenda__date,
+.bg_blanc .bg_c_neutre .liste__objets__style0012 .liste__objets__agenda__date:hover,
+.validation input.submit:hover,
+.reseauxsociauxCard .onglet .onglet_libelle_desktop,
+[id="mobile-recherche"] .mobile-recherche-contenu-form input.submit:hover,
+ .search-metadata__search-input .submit:hover,
+.elastic_plier-deplier__contenu input[type="submit"]:hover,
+div.bg__blanc .choix-3.choix-valide a.action-submit:hover,
+#contenu-encadres div.bg_c_neutre .choix-profils .choix-3.choix-valide a.action-submit:hover,
+.skin_fo_unique_ligne__avec__bg__image .choix-3.choix-valide a.action-submit:hover,
+.skin_fo_unique__ligne__video__bg .choix-3.choix-valide a.action-submit:hover,
+.bg_blanc .call__to__action a:hover,
+.bg_blanc .carte__lien__chevron__2 a:hover,
+.bg_blanc .carte__lien__chevron__3 a:hover,
+.savesearch-actions button:hover,
+button.panier-modale__body__action-ajouter:hover,
+button.panier-modale__body__action-oui:hover,
+.fenetre-partage-url p button:hover,
+.bg_c_dominante li.liste__objets__style0032 .liste__objets__lien__icomoon a[class^="lien"] span,
+.term-aggregation__item-list__appliquer:hover,
+[id="contenu-encadres"] form[id="search_query_input"] p.search__validation input:hover,
+[id="contenu-encadres"] form.form__bu p.validation input:hover,
+.cartetoolbox .moteur__contenu__interne  [type="submit"]:hover {
+  background: #ffffff;
+}
+
+
+
+.brd-2_c_liens_dominante,
+.bg_blanc .bg_c_dominante .liste__objets__style0012 .liste__objets__agenda__date,
+.bg_blanc .bg_c_dominante .liste__objets__style0012 .liste__objets__agenda__date:hover,
+.menu_mobile_contenu_deplie .mobile-menu-contenu--principal ul .icon,
+.menu_mobile_contenu_deplie .bandeau__boites__recherche__profils__liste .icon,
+.menu_mobile_contenu_deplie .mobile-menu-contenu--notifs .icon,
+#contenu-encadres div.bg_c_dominante .choix-profils .choix-3.choix-valide a.action-submit:hover,
+.bg_blanc .bg_c_dominante .call__to__action a:hover,
+.bg_blanc .bg_c_dominante .carte__lien__chevron__2 a:hover,
+.bg_blanc .bg_c_dominante .carte__lien__chevron__3 a:hover   {
+  border:2px solid #ffffff;
+}
+
+
+
+
+  
+  
+
+
+
+
+.bg_c_secondaire,
+.bg_blanc .bg_c_secondaire .liste__objets__style0012 .liste__objets__agenda__date:hover,
+.liste__objets__style0032 a .icon:hover,
+.bg_c_neutre.bloc__bg__colore .liste__objets__style0032 a .icon:hover ,
+.bg_blanc .bg_c_dominante li.liste__objets__style0032 .liste__objets__lien__icomoon a[class^="lien"] span:hover,
+.bg_c_secondaire_hover:hover {
+  background-color: #575761;
+}
+
+
+
+
+  a.liens_actifs_secondaire,
+  a.liens_survol_secondaire:hover,
+  [id="mobile-recherche"] .liens_fond_blanc.icon-cross:hover,
+  button.liens_survol_secondaire:hover,
+  .bg_blanc a:hover,
+  .bg_c_neutre a[class^="lien"]:hover,
+  .bg_c_dominante .liste__objets em a:hover,
+  .bg_c_dominante .liste__objets .liste__objets__courriel a:hover,
+  .bg_c_dominante .liste__objets a.liste__objets__lire__la__suite__inline:hover,
+  .bg_blanc .bg_c_dominante .liste__objets__style0012 .liste__objets__agenda__info a:hover,
+  .bg_blanc .bg_c_neutre .liste__objets__style0012 .liste__objets__agenda__info a:hover,
+  .containerlist ul li div:hover,
+  .bg_blanc .bg_c_secondaire .liste__objets__style0012 .liste__objets__agenda__date a,
+  .card.cartetoolbox .carte-req-liste-col-6 .liste__objets__style0012 .liste__objets__agenda__info a:hover,
+   [id="skin_fo_unique__ligne__video__bg__buttons"] button:hover,
+   #contenu-encadres div.container__carousel .liste__objets .liste__pour__carousel__titre em a:hover,
+   .body__modele--satellite-ui .nav__desktop__niv2 a:hover,
+   .body__modele--ui .nav__desktop__niv2 a:hover,
+   .body__modele--intranet-ui .nav__desktop__niv2 a:hover,
+   .body__modele--sciencespo .nav__desktop__niv2 a:hover,
+   .bg_c_dominante a.couleur_liens_survol:hover,
+   .bg_c_neutre .liste__objets__style0024 a[class^="lien"].couleur_liens_survol:hover,
+   .liste__objets__style0022 .fond_texte_bg_c_secondaire,
+   .bg_c_secondaire .liste__objets .liste__objets__style0022 a:hover,
+   .bg_c_secondaire .liste__objets .liste__objets__style0022 a.liste__objets__lire__la__suite__inline:hover,
+   .bg_c_neutre .liste__objets .liste__objets__style0022 a.liste__objets__lire__la__suite__inline:hover,
+   [id="contenu-encadres"]  .liste__objets .liste__objets__style0065 a:hover,
+   [id="contenu-encadres"]  .liste__objets .liste__objets__style0065 a.liste__objets__lire__la__suite__inline:hover,
+   .bg_blanc .bg_c_secondaire li.liste__objets__style0032 .liste__objets__lien__icomoon a[class^="lien"] span,
+   .bg_c_dominante.bloc__bg__colore .liste__objets__style0032 a[class^="lien"]:hover,
+   .bg_c_neutre.bloc__bg__colore .liste__objets__style0032 a[class^="lien"]:hover,
+   .element_couleur_secondaire,
+   .element_couleur_secondaire_hover:hover,
+   .panier-modale__header__close:hover,
+   .bg_blanc .liste__objets__style0024 a[class^="lien"]:hover,
+   .bloc__bg__colore .liste__objets.grid__container__multi__col  .liste__objets__vignette_deco2 a:hover {
+  color:#575761;
+}
+
+
+
+.body__modele--ui .arrow-up,
+.body__modele--ui .menu1-actif.triangle_cache .arrow-up {
+   width: 0;
+   height: 0;
+   border-left: 7px solid transparent;
+   border-right: 7px solid transparent;
+
+   border-bottom: 12px solid #575761;
+  }
+
+
+  
+  
+
+
+
+
+
+.bg_c_secondaire,
+.bg_c_secondaire a.lien_couleur_texte,
+.bg_c_secondaire a[class^="lien"].lien_couleur_texte,
+[id="contenu-encadres"] .liste__objets .liste__objets__style0065  .liste__objets__type__thematique,
+[id="contenu-encadres"] .bg_c_neutre .liste__objets .liste__objets__style0065 .liste__objets__type__thematique,
+a.couleur_texte_fond_secondaire {
+  color:#ffffff;
+}
+
+.fond_texte_bg_c_secondaire {
+  background: #ffffff;
+}
+
+
+
+.bg_c_secondaire .carte__titre__calistoga__avec__filet::after {
+  border-bottom: 8px solid #ffffff;
+}
+
+
+  
+  
+
+
+
+
+.liens_fond_secondaire,
+.bg_c_secondaire a,
+.bg_c_secondaire a[class^="lien"],
+.bg_c_secondaire button,
+.bg_c_secondaire .liste__objets em a,
+.bg_c_secondaire .liste__objets  .liste__objets__courriel a,
+.bg_c_secondaire .liste__objets  a.liste__objets__lire__la__suite__inline,
+.bg_blanc .bg_c_secondaire .liste__objets__style0012 .liste__objets__agenda__info a,
+.bg_blanc .bg_c_secondaire .liste__objets__style0012 .liste__objets__agenda__date:hover a,
+.bg_blanc .bg_c_secondaire .liste__objets__style0012 .liste__objets__agenda__date:hover a span,
+.bg_c_dominante .liste__objets__style0022 a.liste__objets__lire__la__suite__inline,
+.liste__objets__style0032 a .icon:hover,
+.bg_c_neutre.bloc__bg__colore .liste__objets__style0032 a .icon:hover {
+  color:#ffffff;
+}
+
+
+
+.bg_blanc .bg_c_secondaire .liste__objets__style0012 .liste__objets__agenda__date,
+.bg_blanc .bg_c_secondaire .liste__objets__style0032 .icon,
+.couleur_secondaire_hover:hover   {
+  background: #ffffff;
+}
+
+
+
+.bg_blanc .bg_c_secondaire .liste__objets__style0012 .liste__objets__agenda__date,
+.bg_blanc .bg_c_secondaire .liste__objets__style0012 .liste__objets__agenda__date:hover,
+.border_2px_couleur_lien_secondaire   {
+  border:2px solid #ffffff;
+}
+
+
+
+
+/* Special */
+.body__modele--ui .menu1-actif .arrow-up,
+.body__modele--ui li:hover .arrow-up,
+.body__modele--ui .nav__desktop__niv1:hover .arrow-up {
+ width: 0;
+ height: 0;
+ border-left: 7px solid transparent;
+ border-right: 7px solid transparent;
+
+ border-bottom: 12px solid #ffffff;
+}
+
+
+
+
+
+  
+  
+
+
+
+
+
+.bg_c_neutre,
+body:not(.ficheaccueil) [id="contenu-encadres"] .arbre-item-active li,
+.tag__arbre__choix--disponibles a,
+.tag__arbre__choix--en--cours__container__breadcrumb > * span {
+  background-color: #e9e9e9;
+}
+
+
+.bg_c_neutre .liste__objets__style0032 .liste__objets__lien__icomoon a[class^="lien"] span:hover {
+  color:#e9e9e9;
+}
+
+
+[id="navigation"] ul li ul {
+  border-left: 8px solid #e9e9e9;
+}
+
+
+  
+  
+
+
+
+
+
+.bg_c_neutre,
+.bg_c_neutre a.lien_couleur_texte,
+.bg_c_neutre a[class^="lien"].lien_couleur_texte,
+.bg_blanc .bg_c_neutre .liste__objets__style0012 .liste__objets__comp,
+[id="contenu-encadres"] .bg_c_neutre .liste__objets .liste__objets__type__thematique,
+a.couleur_texte_fond_neutre,
+.bg_c_neutre a.couleur_texte_fond_neutre,
+.tag__arbre__choix--en--cours__container__breadcrumb > * span {
+  color:#363636;
+}
+
+.bg_c_neutre .liste__objets__style0024:not(:first-child) {
+  border-top:1px solid #363636;
+}
+
+
+  
+  
+
+
+
+
+.bg_c_neutre a,
+.bg_c_neutre a[class^="lien"],
+.bg_c_neutre button,
+.liens_fond_neutre,
+.tag__arbre__choix--en--cours__container__breadcrumb > * span:hover  {
+  color:#198752;
+}
+
+
+
+.bg_c_liens_neutre {
+  background:  #198752 ;
+}
+
+
+
+
+
+
+  /* Accueil : couleur de fond des lignes colorées */
+  .skin_fo_unique__ligne__avec__fond {
+  	background: #e9e9e9 ;
+  	}
+
+
+  /* Satellites et Intranet : bandeau, texte et couleur de fond  */
+  .body__modele--intranet-ui [id="bandeau__deco"] ,
+  .body__modele--satellite-ui [id="bandeau__deco"]   {
+    background-color:#e9e9e9 ;
+  	color:#363636 ;
+  }
+
+  /* Triangle Bandeau */
+  .body__modele--intranet-ui  .bandeau__triangle ,
+  .body__modele--satellite-ui .bandeau__triangle {
+    border-bottom : 60px solid #575761;
+  }
+
+  /* Image SVG illustration bandeau - accueil de langue  */
+
+  .body__modele--ui.accueil [id="bandeau"] {
+    background-image:  url() ;
+  }
+
+  /* Image SVG illustration bandeau - pages interieures  */
+
+  .body__modele--ui:not(.accueil) .couleur_bg_bandeau_illustre {
+    background-image:  url() ;
+  }
+
+  /* Image d illustration sur la 1ere ligne de l accueil de langue */
+
+  .accueil .skin_fo_desktop__container.skin_fo_unique__ligne1 {
+  	/* background-image:  url() ; */
+  	background-image:  url() ;
+  }
+
+
+
+  /* Sciences PO : Image SVG illustration pied de page  */
+  .body__modele--sciencespo .footer__liste__liens {
+    background-image: url();
+  }
+
+  /* Pages libres, gestion des colonnages natifs KSUP */
+
+
+
+
+  /* Responsive - illustration bandeau */
+
+
+  @media screen and (min-width: 1366px) {
+
+    .body__modele--intranet-ui.accueil [id="bandeau"] {
+      background-image:  url() ;
+    }
+
+      
+
+      
+        .body__modele--satellite-ui.accueil [id="bandeau"]  {
+          background-image:  url() ;
+        }
+
+        .accueil .skin_fo_desktop__container.skin_fo_unique__ligne1 {
+          background-image:  url("") ;
+        }
+      
+
+    .body__modele--satellite-ui:not(.accueil) [id="bandeau"],
+    .body__modele--intranet-ui:not(.accueil) [id="bandeau"]
+      {
+      background-image:  url("") ;
+    }
+
+
+
+
+
+
+
+  }
+
+
+  @media screen and (min-width: 1920px) {
+
+    .body__modele--ui:not(.accueil) [id="bandeau"] {
+      background-image:  url() ;
+    }
+
+    .body__modele--ui:not(.accueil) .couleur_bg_bandeau_illustre {
+      background-image:  none ;
+    }
+
+  }
+
+
+</style>
+
+
+
+
+
+   <link rel="start" title="Accueil" href="https://master-informatique.univ-grenoble-alpes.fr/" />
+
+    
+   <link rel="alternate" type="application/rss+xml" title="Fil RSS des dix derni�res actualit�s" href="https://master-informatique.univ-grenoble-alpes.fr/adminsite/webservices/export_rss.jsp?NOMBRE=10&amp;CODE_RUBRIQUE=1467362346877&amp;LANGUE=0" />
+
+   
+     
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="text/javascript" src="https://tarteaucitron.io/load.js?domain=master-informatique.univ-grenoble-alpes.fr&uuid=4488f37cfc39db19d8aa1f1cb062e7e4997e53f9"></script>
+
+
+   
+
+ 
+
+
+
+
+  
+
+  
+
+
+
+
+</head>
+
+
+<body id="body" class="fiche ficheaccueil accueil body__modele--satellite-ui  version_fr_FR ">
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <!--  ajouter les accesskeys -->
+
+  
+    <div id="super__bandeau__deco" class="bg_blanc laptop__only desktop__only">
+      <div id="super__bandeau" class="desktop__container ">
+
+        
+        
+
+
+
+
+
+
+
+
+
+    <ul class="super__bandeau__gauche"><!----><li >
+          <span class="icon icon-fleche-precedent laptop__only desktop__only"></span>
+          <span class="icon  icon-circle-right smartphone__only tablette__only"></span>
+          <a href="https://master-informatique.univ-grenoble-alpes.fr/super-bandeau-menu-de-gauche/universite-grenoble-alpes/" class="couleur_liens_fond_blanc_survol type_rubrique_0004" aria-expanded="false">Université Grenoble Alpes</a></li><!----></ul><!-- fin .super__bandeau__gauche -->
+
+
+		
+
+
+
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+<div class="menu__traductions">
+	<ul class="menu__traductions__liste">
+		
+
+			
+
+				<li class="menu__traductions__liste__item versions_fr langue__courante" lang="fr">
+					<a href="https://master-informatique.univ-grenoble-alpes.fr/fr/" hreflang="fr" class="lien_interne  couleur_liens_fond_blanc_survol ">
+						<span class="bouton__libelle smartphone__only tablette__only">fr</span>
+            <span class="bouton__libelle  laptop__only desktop__only">FR</span>
+          </a>
+        </li>
+
+
+			
+
+
+
+		
+
+			
+
+				<li class="menu__traductions__liste__item versions_en" lang="en">
+					<a href="https://master-informatique.univ-grenoble-alpes.fr/en/" hreflang="en" class="lien_interne  couleur_liens_fond_blanc_survol ">
+						<span class="bouton__libelle smartphone__only tablette__only">en</span>
+            <span class="bouton__libelle  laptop__only desktop__only">EN</span>
+          </a>
+        </li>
+
+
+			
+
+
+
+		
+	</ul><!-- .menu__traductions__liste -->
+</div><!-- .menu__traductions  -->
+
+
+    
+
+    </div><!-- Fin #super__bandeau-->
+
+  </div> <!-- Fin #super__bandeau__deco-->
+
+
+  
+
+  <div id="bandeau__deco" class="couleur_bg_bandeau_illustre">
+      <div id="bandeau" class="desktop__container bandeau__modele--satellite-ui " role="banner">
+
+        
+
+
+
+                
+
+                  
+                    <div class="print__only">
+                      <img src="https://master-informatique.univ-grenoble-alpes.fr/uas/dev-master-informatique/UGA_LOGO_NB_PRINT/print_logo_UGA_noir_rvb-190-72.png" />
+                    </div>
+
+                  
+
+                  <div id="bandeau__logo" class="">
+
+                  
+                      <a href="https://master-informatique.univ-grenoble-alpes.fr/fr/">
+                  
+
+          						      <img class="bandeau__logo__site" src="https://master-informatique.univ-grenoble-alpes.fr/uas/dev-master-informatique/UGA_LOGO_ACCUEIL/logo+bleu.svg" alt="Retour à la page d'accueil" />
+          						</a>
+
+                      <h1>
+                      <span>Master informatique</span>
+                    </h1>
+                    <span class="bandeau__triangle"></span>
+                    <span class="bandeau__illustration"></span>
+
+
+
+                    </div><!-- fin #bandeau__logo -->
+      						
+
+
+
+    					
+
+
+
+                
+
+
+
+    					
+
+          
+              <div class="bandeau__boites__recherche__simple laptop__only desktop__only">
+                <button class="modale-recherche flex__container bg_c_dominante brd-2_c_principale " aria-expanded="false">
+                  <span class="icon icon-recherche taille__18"></span>
+                  <span class="bouton__libelle">Recherche</span>
+                </button>
+              </div>
+              <!--  fin .bandeau__boites__recherche__simple -->
+            
+
+
+      </div>
+      <!-- fin #bandeau -->
+  </div>
+  <!-- fin #bandeau__deco -->
+
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Menu mobile -->
+  <div class="menu_mobile bg_c_dominante smartphone__only tablette__only">
+  <!-- Contient les boutons -->
+  <div class="menu_mobile_boutons">
+    <button class="mobile-menu-principal brd-top-1-lat-10-dominante_hover" aria-expanded="false" aria-label="Déplier le menu principal ">
+      <span class="icon icon-burger_menu"></span>
+      <span class="bouton__libelle tablette__only ">Menu</span>
+    </button>
+		
+    <button class="modale-recherche brd-top-1-lat-10-dominante_hover" aria-expanded="false" aria-label="Recherche">
+      <span class="icon icon-recherche "></span>
+      <span class="bouton__libelle tablette__only">Recherche</span>
+    </button>
+		
+
+		<!-- Menu Categorie de rubrique Profils s il existe, depend de la case UAS cochee  -->
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+		
+      
+
+
+
+
+
+
+
+
+
+
+
+<div class="menu__traductions">
+	<ul class="menu__traductions__liste">
+		
+
+			
+
+				<li class="menu__traductions__liste__item versions_fr langue__courante" lang="fr">
+					<a href="https://master-informatique.univ-grenoble-alpes.fr/fr/" hreflang="fr" class="lien_interne  couleur_liens_fond_blanc_survol ">
+						<span class="bouton__libelle smartphone__only tablette__only">fr</span>
+            <span class="bouton__libelle  laptop__only desktop__only">FR</span>
+          </a>
+        </li>
+
+
+			
+
+
+
+		
+
+			
+
+				<li class="menu__traductions__liste__item versions_en" lang="en">
+					<a href="https://master-informatique.univ-grenoble-alpes.fr/en/" hreflang="en" class="lien_interne  couleur_liens_fond_blanc_survol ">
+						<span class="bouton__libelle smartphone__only tablette__only">en</span>
+            <span class="bouton__libelle  laptop__only desktop__only">EN</span>
+          </a>
+        </li>
+
+
+			
+
+
+
+		
+	</ul><!-- .menu__traductions__liste -->
+</div><!-- .menu__traductions  -->
+
+
+    
+
+
+  </div>
+
+  <!-- Contient le contenu déplié -->
+  <div class="menu_mobile_contenu_deplie bg_c_dominante">
+
+  <!--  menu principal déplié-->
+  <div class="mobile-menu-contenu--principal  invisible ">
+
+
+		 	
+
+
+		  		<ul class=" "><!---->
+
+						
+						<li class="nav__niv1__liste" >
+						<span class="nav__niv1__liste__container">
+              <button >
+								<span class="icon  icon-plus"></span>
+							</button>
+
+							<a class="nav__niv1__liste__element" href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/environnement/" class="type_rubrique_0001" aria-expanded="false">Environnement</a>
+
+						
+						</span>
+
+							
+							<ul class="nav__niv2__liste invisible" ><!---->
+								
+									<li class="nav__niv2__liste__element"><a href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/environnement/recherche/" class="type_rubrique_0001">Recherche</a>
+									</li>
+									
+								<!---->
+								
+									<li class="nav__niv2__liste__element"><a href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/environnement/industrie/" class="type_rubrique_0001">Industrie</a>
+									</li>
+									
+								<!---->
+								
+									<li class="nav__niv2__liste__element"><a href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/environnement/pour-les-etudiants-etrangers/" class="type_rubrique_0001">Pour les étudiants étrangers</a>
+									</li>
+									
+								<!---->
+								
+									<li class="nav__niv2__liste__element"><a href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/environnement/inscription-et-bourses/" class="type_rubrique_0001">Inscription et bourses</a>
+									</li>
+									
+								<!----></ul>
+						</li>
+						
+					<!---->
+
+						
+						<li class="nav__niv1__liste" >
+						<span class="nav__niv1__liste__container">
+              <button >
+								<span class="icon  icon-plus"></span>
+							</button>
+
+							<a class="nav__niv1__liste__element" href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/programme-academique/" class="type_rubrique_0001" aria-expanded="false">Programme académique</a>
+
+						
+						</span>
+
+							
+							<ul class="nav__niv2__liste invisible" ><!---->
+								
+									<li class="nav__niv2__liste__element"><a href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/programme-academique/premiere-annee/" class="type_rubrique_0001">Première année</a>
+									</li>
+									
+								<!---->
+								
+									<li class="nav__niv2__liste__element"><a href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/programme-academique/genie-informatique/" class="type_rubrique_0001">Génie informatique</a>
+									</li>
+									
+								<!---->
+								
+									<li class="nav__niv2__liste__element"><a href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/programme-academique/master-of-science-mosig/" class="type_rubrique_0001">Master of Science MoSIG</a>
+									</li>
+									
+								<!---->
+								
+									<li class="nav__niv2__liste__element"><a href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/programme-academique/operations-research-combinatorics-optimization/" class="type_rubrique_0001">Operations Research Combinatorics Optimization</a>
+									</li>
+									
+								<!---->
+								
+									<li class="nav__niv2__liste__element"><a href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/programme-academique/cybersecurite/" class="type_rubrique_0001">Cybersécurité</a>
+									</li>
+									
+								<!---->
+								
+									<li class="nav__niv2__liste__element"><a href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/programme-academique/cybersecurite-et-informatique-legale/" class="type_rubrique_0001">Cybersécurité et informatique légale</a>
+									</li>
+									
+								<!---->
+								
+									<li class="nav__niv2__liste__element"><a href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/programme-academique/competences-complementaires-en-informatique/" class="type_rubrique_0001">Compétences complémentaires en Informatique</a>
+									</li>
+									
+								<!---->
+								
+									<li class="nav__niv2__liste__element"><a href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/programme-academique/reseaux-informatiques-d-entreprise/" class="type_rubrique_0001">Réseaux Informatiques d'Entreprise</a>
+									</li>
+									
+								<!---->
+								
+									<li class="nav__niv2__liste__element"><a href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/programme-academique/communications-engineering-and-data-science-/" class="type_rubrique_0001">Communications Engineering and Data Science </a>
+									</li>
+									
+								<!----></ul>
+						</li>
+						
+					<!---->
+
+						
+						<li class="nav__niv1__liste" >
+						<span class="nav__niv1__liste__container">
+              <button >
+								<span class="icon  icon-plus"></span>
+							</button>
+
+							<a class="nav__niv1__liste__element" href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/projets-recherche-et-industrie/" class="type_rubrique_0001" aria-expanded="false">Projets : recherche et industrie</a>
+
+						
+						</span>
+
+							
+							<ul class="nav__niv2__liste invisible" ><!---->
+								
+									<li class="nav__niv2__liste__element"><a href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/projets-recherche-et-industrie/advanced-information-systems/" class="type_rubrique_0001">Advanced Information Systems</a>
+									</li>
+									
+								<!---->
+								
+									<li class="nav__niv2__liste__element"><a href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/projets-recherche-et-industrie/artificial-intelligence-and-the-web/" class="type_rubrique_0001">Artificial Intelligence and the Web</a>
+									</li>
+									
+								<!---->
+								
+									<li class="nav__niv2__liste__element"><a href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/projets-recherche-et-industrie/cybersecurity/" class="type_rubrique_0001">Cybersecurity</a>
+									</li>
+									
+								<!---->
+								
+									<li class="nav__niv2__liste__element"><a href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/projets-recherche-et-industrie/data-science/" class="type_rubrique_0001">Data-Science</a>
+									</li>
+									
+								<!---->
+								
+									<li class="nav__niv2__liste__element"><a href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/projets-recherche-et-industrie/graphics-vision-and-robotics/" class="type_rubrique_0001">Graphics, Vision and Robotics</a>
+									</li>
+									
+								<!---->
+								
+									<li class="nav__niv2__liste__element"><a href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/projets-recherche-et-industrie/high-confidence-embedded-and-cyberphysical-systems/" class="type_rubrique_0001">High-confidence Embedded and Cyberphysical Systems</a>
+									</li>
+									
+								<!---->
+								
+									<li class="nav__niv2__liste__element"><a href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/projets-recherche-et-industrie/parallel-distributed-embedded-systems/" class="type_rubrique_0001">Parallel, Distributed, Embedded Systems</a>
+									</li>
+									
+								<!---->
+								
+									<li class="nav__niv2__liste__element"><a href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/projets-recherche-et-industrie/operations-research-combinatorics-and-optimization/" class="type_rubrique_0001">Operations Research, Combinatorics and Optimization</a>
+									</li>
+									
+								<!---->
+								
+									<li class="nav__niv2__liste__element"><a href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/projets-recherche-et-industrie/ubiquitous-and-interactive-systems/" class="type_rubrique_0001">Ubiquitous and Interactive Systems</a>
+									</li>
+									
+								<!----></ul>
+						</li>
+						
+					<!---->
+
+						
+						<li class="nav__niv1__liste" >
+						<span class="nav__niv1__liste__container">
+              <button >
+								<span class="icon  icon-plus"></span>
+							</button>
+
+							<a class="nav__niv1__liste__element" href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/debouches/" class="type_rubrique_0001" aria-expanded="false">Débouchés</a>
+
+						
+						</span>
+
+							
+							<ul class="nav__niv2__liste invisible" ><!---->
+								
+									<li class="nav__niv2__liste__element"><a href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/debouches/anciens-gi/" class="type_rubrique_0001">Anciens GI</a>
+									</li>
+									
+								<!---->
+								
+									<li class="nav__niv2__liste__element"><a href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/debouches/anciens-orco/" class="type_rubrique_0001">Anciens ORCO</a>
+									</li>
+									
+								<!---->
+								
+									<li class="nav__niv2__liste__element"><a href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/debouches/indicateurs-d-insertion-professionnelle/" class="type_rubrique_0001">Indicateurs d'insertion professionnelle</a>
+									</li>
+									
+								<!----></ul>
+						</li>
+						
+					<!---->
+
+
+
+				</ul>
+
+
+				
+
+        
+				
+
+
+
+
+
+
+
+
+
+    <ul class="super__bandeau__gauche"><!----><li >
+          <span class="icon icon-fleche-precedent laptop__only desktop__only"></span>
+          <span class="icon  icon-circle-right smartphone__only tablette__only"></span>
+          <a href="https://master-informatique.univ-grenoble-alpes.fr/super-bandeau-menu-de-gauche/universite-grenoble-alpes/" class="couleur_liens_fond_blanc_survol type_rubrique_0004" aria-expanded="false">Université Grenoble Alpes</a></li><!----></ul><!-- fin .super__bandeau__gauche -->
+
+
+		
+
+
+
+
+		</div><!-- .mobile-menu-contenu -->
+
+    <!-- Bloc deplié pour le menu profils sauf si cochee en page d accueil  -->
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+  </div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+    <div id="menudesktop_deco" class="menudesktop__modele--satellite-ui  laptop__only desktop__only bg_c_dominante">
+      <div id="menudesktop" role="navigation"  aria-expanded="false">
+				
+        
+
+
+
+
+
+
+		<ul id="menudesktop__liste" class=""><!---->
+
+				
+				<li >
+
+
+				<a href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/environnement/" class=" type_rubrique_0001">
+					 	<span>Environnement</span>
+						<span class="arrow-up laptop__only desktop__only"></span>
+					 </a>
+				</li>
+				
+		 <!---->
+
+				
+				<li >
+
+
+				<a href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/programme-academique/" class=" type_rubrique_0001">
+					 	<span>Programme académique</span>
+						<span class="arrow-up laptop__only desktop__only"></span>
+					 </a>
+				</li>
+				
+		 <!---->
+
+				
+				<li >
+
+
+				<a href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/projets-recherche-et-industrie/" class=" type_rubrique_0001">
+					 	<span>Projets : recherche et industrie</span>
+						<span class="arrow-up laptop__only desktop__only"></span>
+					 </a>
+				</li>
+				
+		 <!---->
+
+				
+				<li >
+
+
+				<a href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/debouches/" class=" type_rubrique_0001">
+					 	<span>Débouchés</span>
+						<span class="arrow-up laptop__only desktop__only"></span>
+					 </a>
+				</li>
+				
+		 <!----></ul><!-- #menu_principal -->
+
+				
+      </div>
+    </div>
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</header>
+
+
+
+
+
+<main id="page">
+
+	
+
+	
+
+
+	<div id="page_deco" class="desktop__container">
+		<div id="contenu-encadres" class="type_contenu_sans_nav_sans_encadres bg_blanc">
+			<div id="contenu_sans_nav_sans_encadres" class="contenu" role="main">
+
+
+
+
+<div class="layout">
+    <div class="skin_fo_unique2 skin_fo_unique layout layout__simple-grid layout__simple-grid--uniqueGabarit2Grid js-layout">
+
+	<div class="skin_fo_unique__ligne1__deco  skin_fo_unique_ligne__avec__bg__image " style="background-image: url(https://master-informatique.univ-grenoble-alpes.fr)">
+
+			<div class="skin_fo_unique__ligne1 skin_fo_unique__ligne skin_fo_desktop__container">
+
+				<div class="skin_fo_unique__ligne__titre">
+					<div class="layout__slot layout__slot--empty layout__gridSlot layout__slot--columnspan4  layout__slot--0x0 js-layout__slot">
+    </div></div>
+
+				<div class="skin_fo_unique__ligne__container__quatre skin_fo_unique__ligne__cartes__sans__couleur__fond">
+					<div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--1x0 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--1x1 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--1x2 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--1x3 js-layout__slot">
+    </div></div><!-- Fin skin_fo_unique__ligne__cartes__sans__couleur__fond -->
+
+				<div class="skin_fo_unique__ligne__container__quatre skin_fo_unique__ligne__cartes__fond__blanc">
+					<div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--2x0 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--2x1 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--2x2 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--2x3 js-layout__slot">
+    </div></div><!-- Fin skin_fo_unique__ligne__cartes__fond__blanc -->
+
+
+			</div><!-- Fin skin_fo_unique__ligne1 -->
+
+	</div><!-- Fin skin_fo_unique__ligne1__deco -->
+
+	<div class="skin_fo_unique__ligne2__deco skin_fo_unique__ligne__avec__fond ">
+
+			<div class="skin_fo_unique__ligne2 skin_fo_unique__ligne skin_fo_desktop__container">
+
+				<div class="skin_fo_unique__ligne__titre">
+					<div class="layout__slot layout__slot--empty layout__gridSlot layout__slot--columnspan4  layout__slot--3x0 js-layout__slot">
+    </div></div>
+
+				<div class="skin_fo_unique__ligne__container__quatre skin_fo_unique__ligne__cartes__sans__couleur__fond">
+					<div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--4x0 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--4x1 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--4x2 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--4x3 js-layout__slot">
+    </div></div><!-- Fin skin_fo_unique__ligne__cartes__sans__couleur__fond -->
+
+				<div class="skin_fo_unique__ligne__container__quatre skin_fo_unique__ligne__cartes__fond__blanc">
+					<div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--5x0 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--5x1 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--5x2 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--5x3 js-layout__slot">
+    </div></div><!-- Fin skin_fo_unique__ligne__cartes__fond__blanc -->
+
+
+
+			</div><!-- Fin skin_fo_unique__ligne2 -->
+
+
+
+
+	</div><!-- Fin skin_fo_unique__ligne2__deco -->
+
+	<div class="skin_fo_unique__ligne3__deco skin_fo_unique__ligne__sans__fond ">
+
+			<div class="skin_fo_unique__ligne3 skin_fo_unique__ligne skin_fo_desktop__container">
+
+				<div class="skin_fo_unique__ligne__titre">
+					<div class="layout__slot layout__slot--empty layout__gridSlot layout__slot--columnspan4  layout__slot--6x0 js-layout__slot">
+    </div></div>
+
+				<div class="skin_fo_unique__ligne__container__quatre skin_fo_unique__ligne__cartes__sans__couleur__fond">
+					<div class="layout__slot layout__slot--filled layout__gridSlot  layout__slot--rowspan3 layout__slot--7x0 js-layout__slot">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="blocinformatif card  bg_c_secondaire bloc__bg__colore flex-item-4-12 styleaffichagecarte1">
+
+	
+
+		
+
+	
+
+
+
+
+	
+    <em class="titre__carte">
+    	
+
+          Programme académique
+
+        
+
+    </em>
+
+    
+
+    <div class="blocinformatif__content card__content">
+        	<div class="blocinformatif__content card__content">
+<div>
+<div>
+<p>Formation de haut niveau en informatique pour des métiers de l’ingénierie logicielle et matérielle et de la recherche en informatique académique et industrielle, le master s’appuie sur un tissu riche (industrie / experts / laboratoires du site et chercheurs) et répond à une demande forte et importante du monde socio-économique.</p>
+
+<div>
+<div class="call__to__action call__to__action--interne"><a class="lien_interne" href="https://master-informatique.univ-grenoble-alpes.fr/menu-principal/programme-academique/programme-academique-74324.kjsp" title="En savoir plus">En savoir plus</a></div>
+</div>
+</div>
+</div>
+</div>
+
+        </div>
+
+</div>
+</div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--7x1 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--7x2 js-layout__slot">
+    </div><div class="layout__slot layout__slot--filled layout__gridSlot  layout__slot--rowspan3 layout__slot--7x3 js-layout__slot">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card carrousellibreuniqueCard flex-item-8-12">
+
+
+		<!-- Premier item de la liste -->
+		
+
+		<!-- fin Affichage item 1 -->
+
+		<!-- Item 2 de la liste -->
+		
+
+		<!-- fin Affichage item 2 -->
+
+		<!-- Item 3 de la liste -->
+		
+
+		<!-- fin Affichage item 3 -->
+
+
+		<!-- Item 4 de la liste -->
+		
+
+		<!-- fin Affichage item 4 -->
+
+		<!-- Item 5 de la liste -->
+		
+
+		<!-- fin Affichage item 5 -->
+
+		<!-- Item 6 de la liste -->
+		
+
+		<!-- fin Affichage item 6 -->
+
+		<!-- Item 7 de la liste -->
+		
+
+		<!-- fin Affichage item 7 -->
+
+		<!-- Item 8 de la liste -->
+		<!-- fin Affichage item 8 -->
+
+
+		<!-- Item 9 de la liste -->
+		<!-- fin Affichage item 9 -->
+
+
+		<!-- Item 10 de la liste -->
+		<!-- fin Affichage item 10 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+		<ul class="liste__objets liste__items__tri "><li class="liste__objets__style5005 liste__pour__carousel liste__ordre__deux"><div class="liste__objets__fond_deco"><div class="liste__objets__vignette_deco"><a href="https://master-informatique.univ-grenoble-alpes.fr/master-informatique/genie-informatique-74328.kjsp?RH=1467362346877"><img class="liste__objets__vignette " src="/medias/photo/parcours-m2gi_1647356898911-jpg"   alt="" /></a></div><!-- fin .liste__objets__vignette_deco --><div class="liste__objets__vignette_deco2 "><div><div class="liste__pour__carousel__titre"><em><a class="" href="https://master-informatique.univ-grenoble-alpes.fr/master-informatique/genie-informatique-74328.kjsp?RH=1467362346877">Génie informatique</a></em></div><!-- fin .liste__pour__carousel__titre --><div class="liste__objets__resume texte__blanc">Le parcours Génie informatique est une formation à vocation professionnelle vers le métier d'ingénieur logiciel généraliste.</div><!-- .liste__objets__resume --><div class="carousel__lire__la__suite__container"><a class="texte__blanc bg_c_liens" href=" https://master-informatique.univ-grenoble-alpes.fr/master-informatique/genie-informatique-74328.kjsp?RH=1467362346877 ">Lire la suite</a></div></div><!-- fin du div sans Nom --></div><!-- fin .liste__objets__vignette_deco2 --></div><!-- fin .liste__objets__fond_deco --></li><li class="liste__objets__style5005 liste__pour__carousel liste__ordre__trois"><div class="liste__objets__fond_deco"><div class="liste__objets__vignette_deco"><a href="https://master-informatique.univ-grenoble-alpes.fr/master-informatique/master-of-science-mosig-74330.kjsp?RH=1467362346877"><img class="liste__objets__vignette " src="/medias/photo/parcours-m1mosig_1647357005182-jpg"   alt="" /></a></div><!-- fin .liste__objets__vignette_deco --><div class="liste__objets__vignette_deco2 "><div><div class="liste__pour__carousel__titre"><em><a class="" href="https://master-informatique.univ-grenoble-alpes.fr/master-informatique/master-of-science-mosig-74330.kjsp?RH=1467362346877">Master of Science MoSIG</a></em></div><!-- fin .liste__pour__carousel__titre --><div class="liste__objets__resume texte__blanc">Le parcours Mosig est intégralement dispensé en anglais.</div><!-- .liste__objets__resume --><div class="carousel__lire__la__suite__container"><a class="texte__blanc bg_c_liens" href=" https://master-informatique.univ-grenoble-alpes.fr/master-informatique/master-of-science-mosig-74330.kjsp?RH=1467362346877 ">Lire la suite</a></div></div><!-- fin du div sans Nom --></div><!-- fin .liste__objets__vignette_deco2 --></div><!-- fin .liste__objets__fond_deco --></li><li class="liste__objets__style5005 liste__pour__carousel liste__ordre__quatre"><div class="liste__objets__fond_deco"><div class="liste__objets__vignette_deco"><a href="https://master-informatique.univ-grenoble-alpes.fr/master-informatique/operations-research-combinatorics-optimisation-74331.kjsp?RH=1467362346877"><img class="liste__objets__vignette " src="/medias/photo/parcours-orco_1647357067325-jpg"   alt="" /></a></div><!-- fin .liste__objets__vignette_deco --><div class="liste__objets__vignette_deco2 "><div><div class="liste__pour__carousel__titre"><em><a class="" href="https://master-informatique.univ-grenoble-alpes.fr/master-informatique/operations-research-combinatorics-optimisation-74331.kjsp?RH=1467362346877">Operations Research Combinatorics Optimisation</a></em></div><!-- fin .liste__pour__carousel__titre --><div class="liste__objets__resume texte__blanc">Le parcours Operations Research Combinatorics Optimisation est proposé en deuxième année du master informatique (semestres 3 et 4). Les cours sont enseignés en anglais.</div><!-- .liste__objets__resume --><div class="carousel__lire__la__suite__container"><a class="texte__blanc bg_c_liens" href=" https://master-informatique.univ-grenoble-alpes.fr/master-informatique/operations-research-combinatorics-optimisation-74331.kjsp?RH=1467362346877 ">Lire la suite</a></div></div><!-- fin du div sans Nom --></div><!-- fin .liste__objets__vignette_deco2 --></div><!-- fin .liste__objets__fond_deco --></li><li class="liste__objets__style5005 liste__pour__carousel liste__ordre__cinq"><div class="liste__objets__fond_deco"><div class="liste__objets__vignette_deco"><a href="https://master-informatique.univ-grenoble-alpes.fr/master-informatique/cybersecurite-74332.kjsp?RH=1467362346877"><img class="liste__objets__vignette " src="/medias/photo/parcours-cybersecurity_1647359420173-jpg"   alt="" /></a></div><!-- fin .liste__objets__vignette_deco --><div class="liste__objets__vignette_deco2 "><div><div class="liste__pour__carousel__titre"><em><a class="" href="https://master-informatique.univ-grenoble-alpes.fr/master-informatique/cybersecurite-74332.kjsp?RH=1467362346877">Cybersécurité</a></em></div><!-- fin .liste__pour__carousel__titre --><div class="liste__objets__resume texte__blanc">Le parcours Cybersécurité est un programme de seconde année du master informatique (semestres 3 et 4) enseigné en anglais. Il est accessible à partir d'un master 1 mathématique ou informatique ou équivalent.</div><!-- .liste__objets__resume --><div class="carousel__lire__la__suite__container"><a class="texte__blanc bg_c_liens" href=" https://master-informatique.univ-grenoble-alpes.fr/master-informatique/cybersecurite-74332.kjsp?RH=1467362346877 ">Lire la suite</a></div></div><!-- fin du div sans Nom --></div><!-- fin .liste__objets__vignette_deco2 --></div><!-- fin .liste__objets__fond_deco --></li><li class="liste__objets__style5005 liste__pour__carousel liste__ordre__six"><div class="liste__objets__fond_deco"><div class="liste__objets__vignette_deco"><a href="https://master-informatique.univ-grenoble-alpes.fr/master-informatique/cybersecurite-et-informatique-legale-182404.kjsp?RH=1467362346877"><img class="liste__objets__vignette " src="/medias/photo/parcours-cybersecurite-informatique-legale_1647359484041-jpg"   alt="" /></a></div><!-- fin .liste__objets__vignette_deco --><div class="liste__objets__vignette_deco2 "><div><div class="liste__pour__carousel__titre"><em><a class="" href="https://master-informatique.univ-grenoble-alpes.fr/master-informatique/cybersecurite-et-informatique-legale-182404.kjsp?RH=1467362346877">CyberSécurité et Informatique légale</a></em></div><!-- fin .liste__pour__carousel__titre --><div class="liste__objets__resume texte__blanc">Le parcours Cybersécurité et informatique légale est un parcours de la mention Informatique du master sciences, technologies et santé de l'Université Grenoble Alpes. Il est exclusivement proposé en apprentissage et alternance.</div><!-- .liste__objets__resume --><div class="carousel__lire__la__suite__container"><a class="texte__blanc bg_c_liens" href=" https://master-informatique.univ-grenoble-alpes.fr/master-informatique/cybersecurite-et-informatique-legale-182404.kjsp?RH=1467362346877 ">Lire la suite</a></div></div><!-- fin du div sans Nom --></div><!-- fin .liste__objets__vignette_deco2 --></div><!-- fin .liste__objets__fond_deco --></li><li class="liste__objets__style5005 liste__pour__carousel liste__ordre__sept"><div class="liste__objets__fond_deco"><div class="liste__objets__vignette_deco"><a href="https://master-informatique.univ-grenoble-alpes.fr/master-informatique/competences-complementaires-en-informatique-74333.kjsp?RH=1467362346877"><img class="liste__objets__vignette " src="/medias/photo/parcours-cci_1647359602797-jpg"   alt="" /></a></div><!-- fin .liste__objets__vignette_deco --><div class="liste__objets__vignette_deco2 "><div><div class="liste__pour__carousel__titre"><em><a class="" href="https://master-informatique.univ-grenoble-alpes.fr/master-informatique/competences-complementaires-en-informatique-74333.kjsp?RH=1467362346877">Compétences complémentaires en Informatique</a></em></div><!-- fin .liste__pour__carousel__titre --><div class="liste__objets__resume texte__blanc">La formation Compétences complémentaires en informatique (CCI) vise à former, sur une base générale de culture informatique, des professionnels aptes à répondre à la demande actuelle des entreprises en matière d’intégration des méthodes et techniques informatiques dans tous les secteurs de la vie professionnelle.</div><!-- .liste__objets__resume --><div class="carousel__lire__la__suite__container"><a class="texte__blanc bg_c_liens" href=" https://master-informatique.univ-grenoble-alpes.fr/master-informatique/competences-complementaires-en-informatique-74333.kjsp?RH=1467362346877 ">Lire la suite</a></div></div><!-- fin du div sans Nom --></div><!-- fin .liste__objets__vignette_deco2 --></div><!-- fin .liste__objets__fond_deco --></li><li class="liste__objets__style5005 liste__pour__carousel liste__ordre__un"><div class="liste__objets__fond_deco"><div class="liste__objets__vignette_deco"><a href="https://master-informatique.univ-grenoble-alpes.fr/master-informatique/premiere-annee-74327.kjsp?RH=1467362346877"><img class="liste__objets__vignette " src="/medias/photo/parcours-m1mosig_1647594582721-jpg"   alt="" /></a></div><!-- fin .liste__objets__vignette_deco --><div class="liste__objets__vignette_deco2 "><div><div class="liste__pour__carousel__titre"><em><a class="" href="https://master-informatique.univ-grenoble-alpes.fr/master-informatique/premiere-annee-74327.kjsp?RH=1467362346877">Première année</a></em></div><!-- fin .liste__pour__carousel__titre --><div class="liste__objets__resume texte__blanc">La première année propose un parcours en français et un parcours en anglais (première année de Mosig) avec des mutualisations.</div><!-- .liste__objets__resume --><div class="carousel__lire__la__suite__container"><a class="texte__blanc bg_c_liens" href=" https://master-informatique.univ-grenoble-alpes.fr/master-informatique/premiere-annee-74327.kjsp?RH=1467362346877 ">Lire la suite</a></div></div><!-- fin du div sans Nom --></div><!-- fin .liste__objets__vignette_deco2 --></div><!-- fin .liste__objets__fond_deco --></li></ul>
+</div>
+</div></div><!-- Fin skin_fo_unique__ligne__cartes__sans__couleur__fond -->
+
+				<div class="skin_fo_unique__ligne__container__quatre skin_fo_unique__ligne__cartes__fond__blanc">
+					<div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--8x0 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--8x1 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--8x2 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--8x3 js-layout__slot">
+    </div></div><!-- Fin skin_fo_unique__ligne__cartes__fond__blanc -->
+
+
+
+			</div><!-- Fin skin_fo_unique__ligne3 -->
+
+
+
+
+	</div><!-- Fin skin_fo_unique__ligne3__deco -->
+
+	<div class="skin_fo_unique__ligne4__deco skin_fo_unique_ligne__avec__bg__image " style="background-image: url(https://master-informatique.univ-grenoble-alpes.fr)">
+
+			<div class="skin_fo_unique__ligne4 skin_fo_unique__ligne skin_fo_desktop__container">
+
+				<div class="skin_fo_unique__ligne__titre">
+					<div class="layout__slot layout__slot--empty layout__gridSlot layout__slot--columnspan4  layout__slot--9x0 js-layout__slot">
+    </div></div>
+
+				<div class="skin_fo_unique__ligne__container__quatre skin_fo_unique__ligne__cartes__sans__couleur__fond">
+					<div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--10x0 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--10x1 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--10x2 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--10x3 js-layout__slot">
+    </div></div><!-- Fin skin_fo_unique__ligne__cartes__sans__couleur__fond -->
+
+				<div class="skin_fo_unique__ligne__container__quatre skin_fo_unique__ligne__cartes__fond__blanc">
+					<div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--11x0 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--11x1 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--11x2 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--11x3 js-layout__slot">
+    </div></div><!-- Fin skin_fo_unique__ligne__cartes__fond__blanc -->
+
+
+			</div><!-- Fin skin_fo_unique__ligne4 -->
+
+	</div><!-- Fin skin_fo_unique__ligne4__deco -->
+
+	<div class="skin_fo_unique__ligne5__deco skin_fo_unique__ligne__avec__fond ">
+
+			<div class="skin_fo_unique__ligne5 skin_fo_unique__ligne skin_fo_desktop__container">
+
+				<div class="skin_fo_unique__ligne__titre">
+					<div class="layout__slot layout__slot--empty layout__gridSlot layout__slot--columnspan4  layout__slot--12x0 js-layout__slot">
+    </div></div>
+
+				<div class="skin_fo_unique__ligne__container__quatre skin_fo_unique__ligne__cartes__sans__couleur__fond">
+					<div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--13x0 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--13x1 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--13x2 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--13x3 js-layout__slot">
+    </div></div><!-- Fin skin_fo_unique__ligne__cartes__sans__couleur__fond -->
+
+				<div class="skin_fo_unique__ligne__container__quatre skin_fo_unique__ligne__cartes__fond__blanc">
+					<div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--14x0 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--14x1 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--14x2 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--14x3 js-layout__slot">
+    </div></div><!-- Fin skin_fo_unique__ligne__cartes__fond__blanc -->
+
+
+
+			</div><!-- Fin skin_fo_unique__ligne5 -->
+
+
+
+
+	</div><!-- Fin skin_fo_unique__ligne5__deco -->
+
+	<div class="skin_fo_unique__ligne6__deco skin_fo_unique__ligne__sans__fond ">
+
+			<div class="skin_fo_unique__ligne6 skin_fo_unique__ligne skin_fo_desktop__container">
+
+				<div class="skin_fo_unique__ligne__titre">
+					<div class="layout__slot layout__slot--empty layout__gridSlot layout__slot--columnspan4  layout__slot--15x0 js-layout__slot">
+    </div></div>
+
+				<div class="skin_fo_unique__ligne__container__quatre skin_fo_unique__ligne__cartes__sans__couleur__fond">
+					<div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--16x0 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--16x1 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--16x2 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--16x3 js-layout__slot">
+    </div></div><!-- Fin skin_fo_unique__ligne__cartes__sans__couleur__fond -->
+
+				<div class="skin_fo_unique__ligne__container__quatre skin_fo_unique__ligne__cartes__fond__blanc">
+					<div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--17x0 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--17x1 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--17x2 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--17x3 js-layout__slot">
+    </div></div><!-- Fin skin_fo_unique__ligne__cartes__fond__blanc -->
+
+
+
+			</div><!-- Fin skin_fo_unique__ligne6 -->
+
+
+
+
+	</div><!-- Fin skin_fo_unique__ligne6__deco -->
+
+	<div class="skin_fo_unique__ligne7__deco skin_fo_unique_ligne__avec__bg__image " style="background-image: url(https://master-informatique.univ-grenoble-alpes.fr)">
+
+			<div class="skin_fo_unique__ligne7 skin_fo_unique__ligne skin_fo_desktop__container">
+
+				<div class="skin_fo_unique__ligne__titre">
+					<div class="layout__slot layout__slot--empty layout__gridSlot layout__slot--columnspan4  layout__slot--18x0 js-layout__slot">
+    </div></div>
+
+				<div class="skin_fo_unique__ligne__container__quatre skin_fo_unique__ligne__cartes__sans__couleur__fond">
+					<div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--19x0 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--19x1 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--19x2 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--19x3 js-layout__slot">
+    </div></div><!-- Fin skin_fo_unique__ligne__cartes__sans__couleur__fond -->
+
+				<div class="skin_fo_unique__ligne__container__quatre skin_fo_unique__ligne__cartes__fond__blanc">
+					<div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--20x0 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--20x1 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--20x2 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--20x3 js-layout__slot">
+    </div></div><!-- Fin skin_fo_unique__ligne__cartes__fond__blanc -->
+
+
+			</div><!-- Fin skin_fo_unique__ligne7 -->
+
+	</div><!-- Fin skin_fo_unique__ligne7__deco -->
+
+	<div class="skin_fo_unique__ligne8__deco skin_fo_unique__ligne__avec__fond ">
+
+			<div class="skin_fo_unique__ligne8 skin_fo_unique__ligne skin_fo_desktop__container">
+
+				<div class="skin_fo_unique__ligne__titre">
+					<div class="layout__slot layout__slot--empty layout__gridSlot layout__slot--columnspan4  layout__slot--21x0 js-layout__slot">
+    </div></div>
+
+				<div class="skin_fo_unique__ligne__container__quatre skin_fo_unique__ligne__cartes__sans__couleur__fond">
+					<div class="layout__slot layout__slot--filled layout__gridSlot  layout__slot--rowspan3 layout__slot--22x0 js-layout__slot">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card cartetoolbox  brd-1_gris_clair_padding bg_c_dominante bloc__bg__colore flex-item-4-12">
+
+
+
+	<h3 class="carte__titre__calistoga__avec__filet ">
+
+		<span class="titre__libelle">
+			Accès directs
+		</span>
+	</h3>
+
+
+
+
+	<div class="cartetoolbox__content toolbox    ">
+
+	
+
+		<div>
+<p><a class="type_rubrique_0001 lien_interne" href="https://im2ag.univ-grenoble-alpes.fr/ufr-im-ag/" title="Site web de l'UFR IM²AG ">Site web de l'UFR IM²AG </a></p>
+
+<p><a class="lien_externe" href="https://ensimag.grenoble-inp.fr/" title="Site web de l'Ensimag ">Site web de l'Ensimag </a></p>
+</div>
+
+<p><a class="type_rubrique_0001 lien_interne" href="https://master-informatique.univ-grenoble-alpes.fr/a-propos-du-site/plan-d-acces/" title="Voir le plan d'accès">Voir le plan d'accès</a></p>
+
+	</div>
+
+
+
+
+
+
+</div>
+</div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--22x1 js-layout__slot">
+    </div><div class="layout__slot layout__slot--filled layout__gridSlot  layout__slot--rowspan3 layout__slot--22x2 js-layout__slot">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card cartetoolbox  brd-1_gris_clair_padding bg__blanc flex-item-4-12">
+
+
+
+	<h3 class="carte__titre__calistoga__avec__filet ">
+
+		<span class="titre__libelle">
+			Candidatures
+		</span>
+	</h3>
+
+
+
+
+	<div class="cartetoolbox__content toolbox    ">
+
+	
+
+		<strong>Parcours Mosig, Cybersécurité et ORCO</strong><br>
+<a class="lien_interne" href="https://im2ag.univ-grenoble-alpes.fr/menu-principal/formation/candidatures/candidatures-fsa-163493.kjsp" title="> Candidatures sur FSA">Candidatures sur FSA</a>
+<p></p>
+
+<p><strong>Parcours Génie informatique, Cybersécurité et Informatique Légale, Compétences complémentaires en informatique et Master 1&nbsp;</strong><br>
+<a class="lien_interne" href="https://im2ag.univ-grenoble-alpes.fr/menu-principal/formation/candidatures/candidatures-im-ag-98097.kjsp" title="> Candidatures sur le site de l'IM2AG">Candidatures sur le site de l'IM2AG</a></p>
+
+	</div>
+
+
+
+
+
+
+</div>
+</div><div class="layout__slot layout__slot--filled layout__gridSlot  layout__slot--rowspan3 layout__slot--22x3 js-layout__slot">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card cartetoolbox  brd-1_gris_clair_padding bg_c_secondaire bloc__bg__colore flex-item-4-12">
+
+
+
+	<h3 class="carte__titre__calistoga__avec__filet ">
+
+		<span class="titre__libelle">
+			Contact
+		</span>
+	</h3>
+
+
+
+
+	<div class="cartetoolbox__content toolbox    ">
+
+	
+
+		<p><strong>Responsables pédagogiques</strong><br>
+Danielle Ziébelin et Akram Adani</p>
+
+<p><strong>Responsables relations avec les entreprises</strong></p>
+
+<ul>
+	<li>IM2AG : Carole Durand 04 57 42 24 82</li>
+	<li>ENSIMAG : Oarda Cesarano&nbsp; 04 76 82 72 40</li>
+</ul>
+
+	</div>
+
+
+
+	<div class="call__to__action call__to__action--interne justifiee__gauche">
+
+		<a class=" "  href="https://master-informatique.univ-grenoble-alpes.fr/master-informatique/contacts-102384.kjsp?RH=1467362346877">
+
+				
+					Tous les contacts
+				
+
+		</a>
+ 		</div>
+ 
+
+
+
+</div>
+</div></div><!-- Fin skin_fo_unique__ligne__cartes__sans__couleur__fond -->
+
+				<div class="skin_fo_unique__ligne__container__quatre skin_fo_unique__ligne__cartes__fond__blanc">
+					<div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--23x0 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--23x1 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--23x2 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--23x3 js-layout__slot">
+    </div></div><!-- Fin skin_fo_unique__ligne__cartes__fond__blanc -->
+
+
+
+			</div><!-- Fin skin_fo_unique__ligne8 -->
+
+
+
+
+	</div><!-- Fin skin_fo_unique__ligne8__deco -->
+
+	<div class="skin_fo_unique__ligne9__deco skin_fo_unique__ligne__sans__fond ">
+
+			<div class="skin_fo_unique__ligne9 skin_fo_unique__ligne skin_fo_desktop__container">
+
+				<div class="skin_fo_unique__ligne__titre">
+					<div class="layout__slot layout__slot--empty layout__gridSlot layout__slot--columnspan4  layout__slot--24x0 js-layout__slot">
+    </div></div>
+
+				<div class="skin_fo_unique__ligne__container__quatre skin_fo_unique__ligne__cartes__sans__couleur__fond">
+					<div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--25x0 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--25x1 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--25x2 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--25x3 js-layout__slot">
+    </div></div><!-- Fin skin_fo_unique__ligne__cartes__sans__couleur__fond -->
+
+				<div class="skin_fo_unique__ligne__container__quatre skin_fo_unique__ligne__cartes__fond__blanc">
+					<div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--26x0 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--26x1 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--26x2 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--26x3 js-layout__slot">
+    </div></div><!-- Fin skin_fo_unique__ligne__cartes__fond__blanc -->
+
+
+
+			</div><!-- Fin skin_fo_unique__ligne9 -->
+
+
+
+
+	</div><!-- Fin skin_fo_unique__ligne9__deco -->
+
+  <div class="skin_fo_unique__ligne10__deco skin_fo_unique_ligne__avec__bg__image " style="background-image: url(https://master-informatique.univ-grenoble-alpes.fr)">
+
+			<div class="skin_fo_unique__ligne10 skin_fo_unique__ligne skin_fo_desktop__container">
+
+				<div class="skin_fo_unique__ligne__titre">
+					<div class="layout__slot layout__slot--empty layout__gridSlot layout__slot--columnspan4  layout__slot--27x0 js-layout__slot">
+    </div></div>
+
+				<div class="skin_fo_unique__ligne__container__quatre skin_fo_unique__ligne__cartes__sans__couleur__fond">
+					<div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--28x0 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--28x1 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--28x2 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--28x3 js-layout__slot">
+    </div></div><!-- Fin skin_fo_unique__ligne__cartes__sans__couleur__fond -->
+
+				<div class="skin_fo_unique__ligne__container__quatre skin_fo_unique__ligne__cartes__fond__blanc">
+					<div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--29x0 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--29x1 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--29x2 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--29x3 js-layout__slot">
+    </div></div><!-- Fin skin_fo_unique__ligne__cartes__fond__blanc -->
+
+
+			</div><!-- Fin skin_fo_unique__ligne10 -->
+
+	</div><!-- Fin skin_fo_unique__ligne10__deco -->
+
+	<div class="skin_fo_unique__ligne11__deco skin_fo_unique__ligne__avec__fond ">
+
+			<div class="skin_fo_unique__ligne11 skin_fo_unique__ligne skin_fo_desktop__container">
+
+				<div class="skin_fo_unique__ligne__titre">
+					<div class="layout__slot layout__slot--empty layout__gridSlot layout__slot--columnspan4  layout__slot--30x0 js-layout__slot">
+    </div></div>
+
+				<div class="skin_fo_unique__ligne__container__quatre skin_fo_unique__ligne__cartes__sans__couleur__fond">
+					<div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--31x0 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--31x1 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--31x2 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--31x3 js-layout__slot">
+    </div></div><!-- Fin skin_fo_unique__ligne__cartes__sans__couleur__fond -->
+
+				<div class="skin_fo_unique__ligne__container__quatre skin_fo_unique__ligne__cartes__fond__blanc">
+					<div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--32x0 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--32x1 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--32x2 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--32x3 js-layout__slot">
+    </div></div><!-- Fin skin_fo_unique__ligne__cartes__fond__blanc -->
+
+
+
+			</div><!-- Fin skin_fo_unique__ligne11 -->
+
+	</div><!-- Fin skin_fo_unique__ligne11__deco -->
+
+	<div class="skin_fo_unique__ligne12__deco skin_fo_unique__ligne__sans__fond ">
+
+			<div class="skin_fo_unique__ligne12 skin_fo_unique__ligne skin_fo_desktop__container">
+
+				<div class="skin_fo_unique__ligne__titre">
+					<div class="layout__slot layout__slot--empty layout__gridSlot layout__slot--columnspan4  layout__slot--33x0 js-layout__slot">
+    </div></div>
+
+				<div class="skin_fo_unique__ligne__container__quatre skin_fo_unique__ligne__cartes__sans__couleur__fond">
+					<div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--34x0 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--34x1 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--34x2 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--34x3 js-layout__slot">
+    </div></div><!-- Fin skin_fo_unique__ligne__cartes__sans__couleur__fond -->
+
+				<div class="skin_fo_unique__ligne__container__quatre skin_fo_unique__ligne__cartes__fond__blanc">
+					<div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--35x0 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--35x1 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--35x2 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--35x3 js-layout__slot">
+    </div></div><!-- Fin skin_fo_unique__ligne__cartes__fond__blanc -->
+
+
+
+			</div><!-- Fin skin_fo_unique__ligne12 -->
+
+
+
+
+	</div><!-- Fin skin_fo_unique__ligne12__deco -->
+
+  <div class="skin_fo_unique__ligne13__deco skin_fo_unique_ligne__avec__bg__image " style="background-image: url(https://master-informatique.univ-grenoble-alpes.fr)">
+
+      <div class="skin_fo_unique__ligne13 skin_fo_unique__ligne skin_fo_desktop__container">
+
+        <div class="skin_fo_unique__ligne__titre">
+          <div class="layout__slot layout__slot--empty layout__gridSlot layout__slot--columnspan4  layout__slot--36x0 js-layout__slot">
+    </div></div>
+
+        <div class="skin_fo_unique__ligne__container__quatre skin_fo_unique__ligne__cartes__sans__couleur__fond">
+          <div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--37x0 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--37x1 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--37x2 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--37x3 js-layout__slot">
+    </div></div><!-- Fin skin_fo_unique__ligne__cartes__sans__couleur__fond -->
+
+        <div class="skin_fo_unique__ligne__container__quatre skin_fo_unique__ligne__cartes__fond__blanc">
+          <div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--38x0 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--38x1 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--38x2 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--38x3 js-layout__slot">
+    </div></div><!-- Fin skin_fo_unique__ligne__cartes__fond__blanc -->
+
+
+      </div><!-- Fin skin_fo_unique__ligne13 -->
+
+  </div><!-- Fin skin_fo_unique__ligne13__deco -->
+
+  <div class="skin_fo_unique__ligne14__deco skin_fo_unique__ligne__avec__fond ">
+
+      <div class="skin_fo_unique__ligne14 skin_fo_unique__ligne skin_fo_desktop__container">
+
+        <div class="skin_fo_unique__ligne__titre">
+          <div class="layout__slot layout__slot--empty layout__gridSlot layout__slot--columnspan4  layout__slot--39x0 js-layout__slot">
+    </div></div>
+
+        <div class="skin_fo_unique__ligne__container__quatre skin_fo_unique__ligne__cartes__sans__couleur__fond">
+          <div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--40x0 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--40x1 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--40x2 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--40x3 js-layout__slot">
+    </div></div><!-- Fin skin_fo_unique__ligne__cartes__sans__couleur__fond -->
+
+        <div class="skin_fo_unique__ligne__container__quatre skin_fo_unique__ligne__cartes__fond__blanc">
+          <div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--41x0 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--41x1 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--41x2 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--41x3 js-layout__slot">
+    </div></div><!-- Fin skin_fo_unique__ligne__cartes__fond__blanc -->
+
+
+
+      </div><!-- Fin skin_fo_unique__ligne14 -->
+
+  </div><!-- Fin skin_fo_unique__ligne14__deco -->
+
+  <div class="skin_fo_unique__ligne15__deco skin_fo_unique__ligne__sans__fond ">
+
+      <div class="skin_fo_unique__ligne15 skin_fo_unique__ligne skin_fo_desktop__container">
+
+        <div class="skin_fo_unique__ligne__titre">
+          <div class="layout__slot layout__slot--empty layout__gridSlot layout__slot--columnspan4  layout__slot--42x0 js-layout__slot">
+    </div></div>
+
+        <div class="skin_fo_unique__ligne__container__quatre skin_fo_unique__ligne__cartes__sans__couleur__fond">
+          <div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--43x0 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--43x1 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--43x2 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--43x3 js-layout__slot">
+    </div></div><!-- Fin skin_fo_unique__ligne__cartes__sans__couleur__fond -->
+
+        <div class="skin_fo_unique__ligne__container__quatre skin_fo_unique__ligne__cartes__fond__blanc">
+          <div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--44x0 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--44x1 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--44x2 js-layout__slot">
+    </div><div class="layout__slot layout__slot--empty layout__gridSlot  layout__slot--rowspan3 layout__slot--44x3 js-layout__slot">
+    </div></div><!-- Fin skin_fo_unique__ligne__cartes__fond__blanc -->
+
+
+
+      </div><!-- Fin skin_fo_unique__ligne15 -->
+
+
+
+
+  </div><!-- Fin skin_fo_unique__ligne15__deco -->
+
+
+
+
+
+
+
+</div><!-- fin .skin_fo_unique2 -->
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div> <!-- .contenu -->
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div><!-- #contenu-encadres -->
+
+		
+
+		
+		
+
+
+			<div class="separateur"></div>
+		</div><!-- #page_deco -->
+
+	</main> <!-- #page -->
+
+
+							<div id="footer2__deco" class="footer__deco bg_c_secondaire">
+								<div class="desktop__container footer__container footer__liste__liens">
+										
+										
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="footer__logo laptop__only desktop__only">
+
+		<ul class="footer__logo__liste flex__container flex__direction__column">
+			
+				<li>
+
+				
+					 	<img src="/medias/photo/logo-uga-blanc-pied-sans-marge_1645519836618-png" title=" Université Grenoble Alpes" />
+				
+
+
+				</li>
+
+			
+		</ul>
+	</div><!-- fin .footer__logo -->
+
+
+
+
+
+										
+										
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+		<div class="footer__adresse">
+			Master informatique<br>UFR&nbsp;IM²AG<br>60 rue de la Chimie<br>38400 Saint Martin d'Hères
+		</div><!-- fin .footer__adresse -->
+	
+
+
+
+
+										
+										
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<ul class="footer__liens"><!----><li><a class="liens_survol_dominante" href="https://master-informatique.univ-grenoble-alpes.fr/a-propos-du-site/contacts/">Contacts</a></li><!----><li><a class="liens_survol_dominante" href="https://master-informatique.univ-grenoble-alpes.fr/a-propos-du-site/plan-d-acces/">Plan d'accès</a></li><!----><li><a class="liens_survol_dominante" href="https://master-informatique.univ-grenoble-alpes.fr/a-propos-du-site/credits/">Crédits</a></li><!----><li><a class="liens_survol_dominante" href="https://master-informatique.univ-grenoble-alpes.fr/a-propos-du-site/mentions-legales/">Mentions légales</a></li><!----><li><a class="liens_survol_dominante" href="https://master-informatique.univ-grenoble-alpes.fr/a-propos-du-site/plan-du-site/">Plan du site</a></li><!----><li><a class="liens_survol_dominante" href="https://master-informatique.univ-grenoble-alpes.fr/a-propos-du-site/donnees-personnelles/">Données personnelles</a></li><!----></ul><!-- fin .footer__liens -->
+
+		
+
+
+										
+										
+
+
+
+
+
+
+
+
+
+										
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+										<span id="retour_haut_page">
+											<a href="#body" class="border_2px_couleur_lien_secondaire couleur_secondaire_hover liens_survol_secondaire">
+												<span class="icon icon-arrow-up2" arial-label="Haut de page"></span>
+											</a>
+										</span>
+
+
+
+								</div>
+								<!-- fin .desktop__container -->
+								<div class="separateur__ie7"> </div>
+						</div>
+						<!-- fin #footer2__deco -->
+
+
+
+
+
+			
+
+			<span id="url-fiche__libelle" class="print__only">URL de page</span>
+			<a id="url-fiche" class="invisible" href="https://master-informatique.univ-grenoble-alpes.fr/master-informatique/accueil-master-informatique-1033491.kjsp?RH=1467362346877">https://master-informatique.univ-grenoble-alpes.fr/master-informatique/accueil-master-informatique-1033491.kjsp?RH=1467362346877</a>
+
+			<span id="titre-fiche__libelle" class="print__only">Titre de page</span>
+			<span id="titre-fiche-print" class="invisible" ></span>
+
+			<div id="libelles-js" style="display:none;">
+			  <span id="libelle-vousetes">Vous êtes</span>
+			  <span id="libelle-vousrecherchez">Vous souhaitez</span>
+			  <span id="libelle-valider">Valider</span>
+			  <span id="libelle-partager-libelle">Partager le lien</span>
+			  <span id="libelle-partager-copier">Copier</span>
+			  <span id="libelle-partager-copie">Copié</span>
+				<span id="libelle-mailto-recommande">Je recommande cette page :</span>
+  			<span id="libelle-mailto-consultable">Consultable à cette adresse :</span>
+  			<span id="libelle-panier-ajouter-info">La page sera alors accessible depuis votre menu "Mes favoris".</span>
+				<span id="libelle-stop-video">Arrêter la vidéo</span>
+			  <span id="libelle-jouer-video">Jouer la vidéo</span>
+			  <span id="libelle-stop-son">Couper le son</span>
+			  <span id="libelle-jouer-son">Jouer le son</span>
+			  <span id="libelle-mes-choix">Mes choix</span>
+			</div>
+
+			
+			
+
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="mobile-recherche" class="mobile-recherche-contenu visually-hidden" >
+
+    <h3>Que recherchez-vous ?</h3>
+    <span class="icon icon-cross liens_fond_blanc"></span>
+    <div class="mobile-recherche-contenu-form" itemscope itemtype="http://schema.org/WebSite">
+      <meta itemprop="url" content="https://master-informatique.univ-grenoble-alpes.fr/"/>
+      <form class=" flex__container " action="https://master-informatique.univ-grenoble-alpes.fr/servlet/search" method="get" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
+        <meta itemprop="target" content="https://master-informatique.univ-grenoble-alpes.fr/servlet/search?beanKey=150bfcee-1f87-11e7-a0e0-b753bedcad22&l=0&q={q}"/>
+        <input type="hidden" name="beanKey" value="150bfcee-1f87-11e7-a0e0-b753bedcad22" />
+        
+            <input type="hidden" name="site" value="1467362346877" />
+        
+        <input type="hidden" name="l" value="0"/>
+        <input type="hidden" name="RH" value="1467362346877"/>
+        <p class="mobile-recherche-contenu-motcle">
+          <span class="icon icon-search"></span>
+          <input itemprop="query-input" name="q" role="search" type="text" id="MOTS_CLEFS" value="" placeholder="Saisissez les mot-clés" title="Rechercher par mots-clés"/>
+        </p>
+        <input class=" submit bg_c_dominante brd-2_c_principale "  type="submit" value="Valider" />
+      </form>
+
+      <p class="mobile-recherche-contenu-criteres ">
+        <a  href="/servlet/search?beanKey=150bfcee-1f87-11e7-a0e0-b753bedcad22">
+          <span class="reset">Plus de critères</span>
+        </a>
+      </p>
+
+    </div>
+    <!-- fin .mobile-recherche-contenu-form  -->
+
+</div><!-- #mobile-recherche -->
+
+
+			
+
+
+			
+
+			
+
+
+
+
+
+			
+				<script type="text/javascript" src="https://master-informatique.univ-grenoble-alpes.fr/wro/scripts_jsp_unique2_partout_footer/bafe336e213c23b642038fa6cb8f41c9e331aa4a.js"></script>
+
+ 				<script type="text/javascript" src="https://master-informatique.univ-grenoble-alpes.fr/wro/scripts_jsp_unique2_modele_epe_footer/f705918936ecee79a39486666105bc108e1e8996.js"></script>
+
+					
+						<script type="text/javascript" src="https://master-informatique.univ-grenoble-alpes.fr/wro/scripts_jsp_unique2_modele_epe_footer_accueil_langue/7f212cc883c7b2c7d51ade1bb4015629b4455a2f.js"></script>
+					
+					
+
+					
+
+ 	 	   
+
+			 
+
+
+
+
+
+			
+
+			
+
+
+
+<script type="text/javascript">
+
+		var gaProperty = 'UA-71850333-1';
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;
+  i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create',  gaProperty , 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+
+
+</script>
+
+  	
+
+
+
+
+
+ 		<link rel="stylesheet" type="text/css" media="print" href="https://master-informatique.univ-grenoble-alpes.fr/wro/styles_jsp_unique2_print/7729cd59c19c26f99efcd4ff45f6f125e2f76757.css"/>
+
+
+		
+
+
+
+
+		<!--Hostname : ksup-engine-4.u-ga.fr-->
+	</body>
+</html>
+

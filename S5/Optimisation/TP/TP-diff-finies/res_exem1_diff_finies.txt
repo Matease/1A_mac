@@ -1,0 +1,578 @@
+Algorithme de Gauss-Newton
+Vraie Jacobienne =0
+Methode diff finies = avants
+ndigits :  8 
+------------------------------------------------------------------
+         k     ||f'(beta)||   f(beta)      ||delta||    exitflag 
+------------------------------------------------------------------
+            0            0   3.1225e+10
+
+{Output argument "norm_gradf_beta" (and
+possibly others) not assigned a value in
+the execution with "GN_ref" function.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('exem1_diff_finies', '/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/exem1_diff_finies.m', 111)" style="font-weight:bold">exem1_diff_finies</a> (<a href="matlab: opentoline('/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/exem1_diff_finies.m',111,0)">line 111</a>)
+	   [beta, norm_gradf_beta, f_beta, res, norms, k, exitflag] = GN_ref(@res1, @(beta) diff_finies_avant(@res1,beta,ndigits), beta0, option);
+} 
+exem1_diff_finies
+Algorithme de Gauss-Newton
+Vraie Jacobienne =0
+Methode diff finies = avants
+ndigits :  8 
+------------------------------------------------------------------
+         k     ||f'(beta)||   f(beta)      ||delta||    exitflag 
+------------------------------------------------------------------
+            0            0   3.1225e+10
+
+{Output argument "norm_gradf_beta" (and possibly
+others) not assigned a value in the execution
+with "GN_ref" function.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('exem1_diff_finies', '/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/exem1_diff_finies.m', 111)" style="font-weight:bold">exem1_diff_finies</a> (<a href="matlab: opentoline('/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/exem1_diff_finies.m',111,0)">line 111</a>)
+	   [beta, norm_gradf_beta, f_beta, res, norms, k, exitflag] = GN_ref(@res1, @(beta) diff_finies_avant(@res1,beta,ndigits), beta0, option);
+} 
+main_diff_finies_cosinus
+------------------------------------------
+Test de l'algorithme de différences finies  sur la fonction cosinus
+exem1_diff_finies
+Algorithme de Gauss-Newton
+Vraie Jacobienne =0
+Methode diff finies = avants
+ndigits :  8 
+------------------------------------------------------------------
+         k     ||f'(beta)||   f(beta)      ||delta||    exitflag 
+------------------------------------------------------------------
+            0            0   3.1225e+10
+
+{Output argument "norm_gradf_beta" (and possibly
+others) not assigned a value in the execution
+with "GN_ref" function.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('exem1_diff_finies', '/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/exem1_diff_finies.m', 111)" style="font-weight:bold">exem1_diff_finies</a> (<a href="matlab: opentoline('/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/exem1_diff_finies.m',111,0)">line 111</a>)
+	   [beta, norm_gradf_beta, f_beta, res, norms, k, exitflag] = GN_ref(@res1, @(beta) diff_finies_avant(@res1,beta,ndigits), beta0, option);
+} 
+main_diff_finies_cosinus
+------------------------------------------
+Test de l'algorithme de différences finies  sur la fonction cosinus
+exem1_diff_finies
+Algorithme de Gauss-Newton
+Vraie Jacobienne =0
+Methode diff finies = avants
+ndigits :  8 
+------------------------------------------------------------------
+         k     ||f'(beta)||   f(beta)      ||delta||    exitflag 
+------------------------------------------------------------------
+            0            0   3.1225e+10
+
+{Output argument "norm_gradf_beta" (and possibly
+others) not assigned a value in the execution
+with "GN_ref" function.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('exem1_diff_finies', '/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/exem1_diff_finies.m', 111)" style="font-weight:bold">exem1_diff_finies</a> (<a href="matlab: opentoline('/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/exem1_diff_finies.m',111,0)">line 111</a>)
+	   [beta, norm_gradf_beta, f_beta, res, norms, k, exitflag] = GN_ref(@res1, @(beta) diff_finies_avant(@res1,beta,ndigits), beta0, option);
+} 
+diff_finies_avant
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('diff_finies_avant', '/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/diff_finies_avant.m', 21)" style="font-weight:bold">diff_finies_avant</a> (<a href="matlab: opentoline('/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/diff_finies_avant.m',21,0)">line 21</a>)
+n=length(x);
+} 
+diff_finies_avant
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('diff_finies_avant', '/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/diff_finies_avant.m', 21)" style="font-weight:bold">diff_finies_avant</a> (<a href="matlab: opentoline('/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/diff_finies_avant.m',21,0)">line 21</a>)
+n=length(x);
+} 
+diff_finies_avant
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('diff_finies_avant', '/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/diff_finies_avant.m', 21)" style="font-weight:bold">diff_finies_avant</a> (<a href="matlab: opentoline('/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/diff_finies_avant.m',21,0)">line 21</a>)
+n=length(x);
+} 
+diff_finies_avant
+{Not enough input
+arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('diff_finies_avant', '/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/diff_finies_avant.m', 21)" style="font-weight:bold">diff_finies_avant</a> (<a href="matlab: opentoline('/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/diff_finies_avant.m',21,0)">line 21</a>)
+n=length(x);
+} 
+exem1_diff_finies
+Algorithme de Gauss-Newton
+Vraie Jacobienne =0
+Methode diff finies = avants
+ndigits :  8 
+------------------------------------------------------------------
+         k     ||f'(beta)||   f(beta)      ||delta||    exitflag 
+------------------------------------------------------------------
+{Unrecognized function or
+variable 'epsm'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('diff_finies_avant', '/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/diff_finies_avant.m', 25)" style="font-weight:bold">diff_finies_avant</a> (<a href="matlab: opentoline('/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/diff_finies_avant.m',25,0)">line 25</a>)
+w=max(epsm,10^(-option));
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('exem1_diff_finies', '/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/exem1_diff_finies.m', 92)" style="font-weight:bold">exem1_diff_finies</a> (<a href="matlab: opentoline('/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/exem1_diff_finies.m',92,0)">line 92</a>)
+	    Jres = diff_finies_avant(@res1,beta0, ndigits);
+} 
+diff_finies_avant
+{Not enough input
+arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('diff_finies_avant', '/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/diff_finies_avant.m', 21)" style="font-weight:bold">diff_finies_avant</a> (<a href="matlab: opentoline('/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/diff_finies_avant.m',21,0)">line 21</a>)
+n=length(x);
+} 
+diff_finies_avant
+{Not enough input
+arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('diff_finies_avant', '/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/diff_finies_avant.m', 21)" style="font-weight:bold">diff_finies_avant</a> (<a href="matlab: opentoline('/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/diff_finies_avant.m',21,0)">line 21</a>)
+n=length(x);
+} 
+exem1_diff_finies
+Algorithme de Gauss-Newton
+Vraie Jacobienne =0
+Methode diff finies = avants
+ndigits :  8 
+------------------------------------------------------------------
+         k     ||f'(beta)||   f(beta)      ||delta||    exitflag 
+------------------------------------------------------------------
+{Unrecognized function or
+variable 'signe'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('diff_finies_avant', '/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/diff_finies_avant.m', 29)" style="font-weight:bold">diff_finies_avant</a> (<a href="matlab: opentoline('/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/diff_finies_avant.m',29,0)">line 29</a>)
+    hk=(w^0.5)*max(abs(x(k)),1)*signe(x(k));
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('exem1_diff_finies', '/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/exem1_diff_finies.m', 92)" style="font-weight:bold">exem1_diff_finies</a> (<a href="matlab: opentoline('/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/exem1_diff_finies.m',92,0)">line 92</a>)
+	    Jres = diff_finies_avant(@res1,beta0, ndigits);
+} 
+diff_finies_avant
+{Not enough input
+arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('diff_finies_avant', '/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/diff_finies_avant.m', 21)" style="font-weight:bold">diff_finies_avant</a> (<a href="matlab: opentoline('/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/diff_finies_avant.m',21,0)">line 21</a>)
+n=length(x);
+} 
+exem1_diff_finies
+Algorithme de Gauss-Newton
+Vraie Jacobienne =0
+Methode diff finies = avants
+ndigits :  8 
+------------------------------------------------------------------
+         k     ||f'(beta)||   f(beta)      ||delta||    exitflag 
+------------------------------------------------------------------
+{Unrecognized function or
+variable 'signe'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('diff_finies_avant', '/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/diff_finies_avant.m', 29)" style="font-weight:bold">diff_finies_avant</a> (<a href="matlab: opentoline('/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/diff_finies_avant.m',29,0)">line 29</a>)
+    hk=(sqrt(w))*max([abs(x(k)) 1])*signe(x(k));
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('exem1_diff_finies', '/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/exem1_diff_finies.m', 92)" style="font-weight:bold">exem1_diff_finies</a> (<a href="matlab: opentoline('/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/exem1_diff_finies.m',92,0)">line 92</a>)
+	    Jres = diff_finies_avant(@res1,beta0, ndigits);
+} 
+exem1_diff_finies
+Algorithme de Gauss-Newton
+Vraie Jacobienne =0
+Methode diff finies = avants
+ndigits :  8 
+------------------------------------------------------------------
+         k     ||f'(beta)||   f(beta)      ||delta||    exitflag 
+------------------------------------------------------------------
+{Unrecognized function or
+variable 'signe'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('diff_finies_avant', '/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/diff_finies_avant.m', 29)" style="font-weight:bold">diff_finies_avant</a> (<a href="matlab: opentoline('/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/diff_finies_avant.m',29,0)">line 29</a>)
+    hk=(sqrt(w))*max([abs(x(k));1])*signe(x(k));
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('exem1_diff_finies', '/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/exem1_diff_finies.m', 92)" style="font-weight:bold">exem1_diff_finies</a> (<a href="matlab: opentoline('/Users/mathissigier/Documents/Etudes/1A_SN/S5/Optimisation/TP/TP-diff-finies/exem1_diff_finies.m',92,0)">line 92</a>)
+	    Jres = diff_finies_avant(@res1,beta0, ndigits);
+} 
+exem1_diff_finies
+Algorithme de Gauss-Newton
+Vraie Jacobienne =0
+Methode diff finies = avants
+ndigits :  8 
+------------------------------------------------------------------
+         k     ||f'(beta)||   f(beta)      ||delta||    exitflag 
+------------------------------------------------------------------
+            0   2.4991e+08   3.1225e+10
+
+  Columns 1 through 3
+
+   1.0000e+00   5.5686e+05   3.1007e+10
+
+  Columns 4 through 5
+
+   2.4913e+05   4.0000e+00
+
+  Columns 1 through 3
+
+   2.0000e+00   1.9167e-07   3.6725e-15
+
+  Columns 4 through 5
+
+   2.4903e+05   1.0000e+00
+
+------------------------------------------------------------------
+betak
+   5.0000e+02   1.0000e+00   1.0000e+00
+   1.0000e+02  -2.4902e+05   1.0000e+00
+
+Algorithme de Gauss-Newton
+Vraie Jacobienne =0
+Methode diff finies = avants
+ndigits :  8 
+------------------------------------------------------------------
+         k     ||f'(beta)||   f(beta)      ||delta||    exitflag 
+------------------------------------------------------------------
+            0   2.4991e+08   3.1225e+10
+
+  Columns 1 through 3
+
+   1.0000e+00   5.5686e+05   3.1007e+10
+
+  Columns 4 through 5
+
+   2.4913e+05   4.0000e+00
+
+  Columns 1 through 3
+
+   2.0000e+00   1.9167e-07   3.6725e-15
+
+  Columns 4 through 5
+
+   2.4903e+05   1.0000e+00
+
+------------------------------------------------------------------
+betak
+   5.0000e+02   1.0000e+00   1.0000e+00
+   1.0000e+02  -2.4902e+05   1.0000e+00
+
+Algorithme de Gauss-Newton
+Vraie Jacobienne =0
+Methode diff finies = avants
+ndigits :  8 
+------------------------------------------------------------------
+         k     ||f'(beta)||   f(beta)      ||delta||    exitflag 
+------------------------------------------------------------------
+            0   2.4991e+08   3.1225e+10
+
+  Columns 1 through 3
+
+   1.0000e+00   5.5686e+05   3.1007e+10
+
+  Columns 4 through 5
+
+   2.4913e+05   4.0000e+00
+
+  Columns 1 through 3
+
+   2.0000e+00   1.9167e-07   3.6725e-15
+
+  Columns 4 through 5
+
+   2.4903e+05   1.0000e+00
+
+------------------------------------------------------------------
+betak
+   5.0000e+02   1.0000e+00   1.0000e+00
+   1.0000e+02  -2.4902e+05   1.0000e+00
+
+Algorithme de Gauss-Newton
+Vraie Jacobienne =0
+Methode diff finies = avants
+ndigits :  8 
+------------------------------------------------------------------
+         k     ||f'(beta)||   f(beta)      ||delta||    exitflag 
+------------------------------------------------------------------
+
+n =
+
+     2
+
+  Columns 1 through 2
+
+            0   2.4991e+08
+
+  Column 3
+
+   3.1225e+10
+
+
+n =
+
+     2
+
+
+n =
+
+     2
+
+
+n =
+
+     2
+
+  Columns 1 through 2
+
+   1.0000e+00   5.5686e+05
+
+  Columns 3 through 4
+
+   3.1007e+10   2.4913e+05
+
+  Column 5
+
+   4.0000e+00
+
+
+n =
+
+     2
+
+
+n =
+
+     2
+
+
+n =
+
+     2
+
+
+n =
+
+     2
+
+
+n =
+
+     2
+
+  Columns 1 through 2
+
+   2.0000e+00   1.9167e-07
+
+  Columns 3 through 4
+
+   3.6725e-15   2.4903e+05
+
+  Column 5
+
+   1.0000e+00
+
+------------------------------------------------------------------
+betak
+  Columns 1 through 2
+
+   5.0000e+02   1.0000e+00
+   1.0000e+02  -2.4902e+05
+
+  Column 3
+
+   1.0000e+00
+   1.0000e+00
+
+Algorithme de Gauss-Newton
+Vraie Jacobienne =0
+Methode diff finies = avants
+ndigits :  8 
+------------------------------------------------------------------
+         k     ||f'(beta)||   f(beta)      ||delta||    exitflag 
+------------------------------------------------------------------
+  Columns 1 through 2
+
+            0   2.4991e+08
+
+  Column 3
+
+   3.1225e+10
+
+  Columns 1 through 2
+
+   1.0000e+00   5.5686e+05
+
+  Columns 3 through 4
+
+   3.1007e+10   2.4913e+05
+
+  Column 5
+
+   4.0000e+00
+
+  Columns 1 through 2
+
+   2.0000e+00   1.9167e-07
+
+  Columns 3 through 4
+
+   3.6725e-15   2.4903e+05
+
+  Column 5
+
+   1.0000e+00
+
+------------------------------------------------------------------
+betak
+  Columns 1 through 2
+
+   5.0000e+02   1.0000e+00
+   1.0000e+02  -2.4902e+05
+
+  Column 3
+
+   1.0000e+00
+   1.0000e+00
+
+Algorithme de Gauss-Newton
+Vraie Jacobienne =0
+Methode diff finies = avants
+ndigits :  8 
+------------------------------------------------------------------
+         k     ||f'(beta)||   f(beta)      ||delta||    exitflag 
+------------------------------------------------------------------
+  Columns 1 through 2
+
+            0   2.4991e+08
+
+  Column 3
+
+   3.1225e+10
+
+  Columns 1 through 2
+
+   1.0000e+00   5.5686e+05
+
+  Columns 3 through 4
+
+   3.1007e+10   2.4913e+05
+
+  Column 5
+
+   4.0000e+00
+
+  Columns 1 through 2
+
+   2.0000e+00   1.9167e-07
+
+  Columns 3 through 4
+
+   3.6725e-15   2.4903e+05
+
+  Column 5
+
+   1.0000e+00
+
+------------------------------------------------------------------
+betak
+  Columns 1 through 2
+
+   5.0000e+02   1.0000e+00
+   1.0000e+02  -2.4902e+05
+
+  Column 3
+
+   1.0000e+00
+   1.0000e+00
+
+Algorithme de Gauss-Newton
+Vraie Jacobienne =0
+Methode diff finies = avants
+ndigits :  8 
+------------------------------------------------------------------
+         k     ||f'(beta)||   f(beta)      ||delta||    exitflag 
+------------------------------------------------------------------
+  Columns 1 through 2
+
+            0   2.4991e+08
+
+  Column 3
+
+   3.1225e+10
+
+  Columns 1 through 2
+
+   1.0000e+00   5.5686e+05
+
+  Columns 3 through 4
+
+   3.1007e+10   2.4913e+05
+
+  Column 5
+
+   4.0000e+00
+
+  Columns 1 through 2
+
+   2.0000e+00   1.9167e-07
+
+  Columns 3 through 4
+
+   3.6725e-15   2.4903e+05
+
+  Column 5
+
+   1.0000e+00
+
+------------------------------------------------------------------
+betak
+  Columns 1 through 2
+
+   5.0000e+02   1.0000e+00
+   1.0000e+02  -2.4902e+05
+
+  Column 3
+
+   1.0000e+00
+   1.0000e+00
+
+Algorithme de Gauss-Newton
+Vraie Jacobienne =0
+Methode diff finies = avants
+ndigits :  8 
+------------------------------------------------------------------
+         k     ||f'(beta)||   f(beta)      ||delta||    exitflag 
+------------------------------------------------------------------
+  Columns 1 through 2
+
+            0   2.4991e+08
+
+  Column 3
+
+   3.1225e+10
+
+  Columns 1 through 2
+
+   1.0000e+00   5.5686e+05
+
+  Columns 3 through 4
+
+   3.1007e+10   2.4913e+05
+
+  Column 5
+
+   4.0000e+00
+
+  Columns 1 through 2
+
+   2.0000e+00   1.9167e-07
+
+  Columns 3 through 4
+
+   3.6725e-15   2.4903e+05
+
+  Column 5
+
+   1.0000e+00
+
+------------------------------------------------------------------
+betak
+  Columns 1 through 2
+
+   5.0000e+02   1.0000e+00
+   1.0000e+02  -2.4902e+05
+
+  Column 3
+
+   1.0000e+00
+   1.0000e+00
+

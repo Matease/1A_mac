@@ -1,0 +1,100 @@
+Nombre de PDV : 12133
+Nombre de services : 24
+Liste des services :
+  - Aire de camping-cars
+  - Automate CB
+  - Baie de service auto
+  - Bar
+  - Boutique alimentaire
+  - Boutique non alimentaire
+  - Carburant qualité supérieure
+  - Douches
+  - Espace bébé / change
+  - GPL
+  - Lavage haute-pression
+  - Lavage multi-programmes
+  - Laverie
+  - Location de véhicule
+  - Piste poids lourds
+  - Relais colis
+  - Restauration sur place
+  - Restauration à emporter
+  - Station de gonflage
+  - Station de lavage
+  - Toilettes publiques
+  - Vente de fioul domestique
+  - Vente de gaz domestique
+  - Vente de pétrole lampant
+Ville de 31075001 = TOULOUSE
+Prix de 31075001@2017-01-25T10:00 = 1235
+Nb de villes offrant au moins un PDV : 6067
+Nb moyen de PDV par ville : 1.9998351738915445
+PDV proposant au moins 1 carburant(s) : 9670
+PDV proposant au moins 2 carburant(s) : 9641
+PDV proposant au moins 3 carburant(s) : 8729
+PDV proposant au moins 4 carburant(s) : 3360
+PDV proposant au moins 5 carburant(s) : 773
+PDV proposant au moins 6 carburant(s) : 65
+Nombre de PDV en 31200 : 14
+[31000003] 138 Avenue de Fronton, 31200 TOULOUSE
+[31200020] 103 BOULEVARD DE SUISSE, 31200 TOULOUSE
+[31200021] 20 BLD DES MINIMES, 31200 TOULOUSE
+[31200022] 55 BOULEVARD DE SUISSE, 31200 TOULOUSE
+[31200023] 353 AVENUE DES ETATS UNIS, 31200 TOULOUSE
+[31200016] 353 avenue des états unis, 31200 TOULOUSE
+[31200019] 341 Avenue des États-Unis, 31200 TOULOUSE
+[31200013] 20 Boulevard des Minimes, 31200 TOULOUSE
+[31200008] 168 Avenue des États-Unis, 31200 TOULOUSE
+[31200009] Avenue des États-Unis, 31200 TOULOUSE
+[31200011] 55 Boulevard de Suisse, 31200 TOULOUSE
+[31200001] 103 Boulevard de Suisse, 31200 TOULOUSE
+[31200002] 211 Route d'Albi, 31200 TOULOUSE
+[31075001] 92 Chemin de Gabardie, 31200 TOULOUSE
+Nb de stations toulousaines vendant Gazole et GPLc : 6
+Les villes avec au moins 10 PDV :
+Ville = STRASBOURG a 25 PDV
+Ville = TOULOUSE a 48 PDV
+Ville = LE MANS a 25 PDV
+Ville = LYON a 38 PDV
+Ville = REIMS a 28 PDV
+Ville = PARIS a 111 PDV
+Ville = LE HAVRE a 22 PDV
+Ville = TOURS a 29 PDV
+Ville = NICE a 56 PDV
+Ville = MONTPELLIER a 30 PDV
+Ville = ARGENTEUIL a 21 PDV
+Ville = LILLE a 21 PDV
+Ville = RENNES a 26 PDV
+Ville = MARSEILLE a 100 PDV
+Ville = NANTES a 28 PDV
+Ville = BORDEAUX a 24 PDV
+Ville = LIMOGES a 36 PDV
+Les villes avec au moins 10 PDV (classées) :
+PARIS : 111
+MARSEILLE : 100
+NICE : 56
+TOULOUSE : 48
+LYON : 38
+LIMOGES : 36
+MONTPELLIER : 30
+TOURS : 29
+REIMS : 28
+NANTES : 28
+RENNES : 26
+STRASBOURG : 25
+LE MANS : 25
+BORDEAUX : 24
+LE HAVRE : 22
+ARGENTEUIL : 21
+LILLE : 21
+Les 10 villes avec le plus grand nombre de PDV :
+PARIS : 111
+MARSEILLE : 100
+NICE : 56
+TOULOUSE : 48
+LYON : 38
+LIMOGES : 36
+MONTPELLIER : 30
+TOURS : 29
+REIMS : 28
+NANTES : 28

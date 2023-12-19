@@ -1,0 +1,10 @@
+
+Le routage en informatique est l’acheminement de données à travers un réseau vers une interface liée aux informations données. C’est la table de routage qui structure l’ensemble des informations pour l’acheminement des données. C’est une façon efficace et rapide d’envoyer un grand nombre d’informations vers des interfaces choisies. 
+
+
+
+
+Dans le cadre de notre enseignement de la matière programmation impérative. Nous avons eu à réaliser un code complet et efficace de l’utilisation d’un routeur, d’une table de routage et éventuellement du cache associé. 
+Nous avons utilisé le language Ada pour écrire notre code. 
+Nous avons un mois et demi pour réaliser ce projet en trio. 
+Après avoir pris connaissance du sujet, nous avons rapidement commencé à écrire le raffinage du projet pour pouvoir avoir une vision d’ensemble du code que nous allions créer avec Ada. Les raffinages constituent donc une base que nous avons suivi tout au long de la rédaction des différents codes.

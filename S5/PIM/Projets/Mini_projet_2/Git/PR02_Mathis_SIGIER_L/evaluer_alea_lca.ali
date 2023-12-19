@@ -1,0 +1,150 @@
+V "GNAT Lib v2020"
+M P W=b
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U evaluer_alea_lca%b	evaluer_alea_lca.adb	45bce5ea NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+Z ada.numerics.discrete_random%s
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.unchecked_deallocation%s
+W alea%s		alea.adb		alea.ali
+W lca%s			lca.adb			lca.ali
+W sda_exceptions%s	sda_exceptions.ads	sda_exceptions.ali
+W system%s		system.ads		system.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.val_int%s	s-valint.adb		s-valint.ali
+
+D ada.ads		20200819050642 76789da1 ada%s
+D a-comlin.ads		20200819050641 4aa66568 ada.command_line%s
+D a-except.ads		20200819050642 a7106115 ada.exceptions%s
+D a-inteio.ads		20200819050642 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20200819050642 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20200819050642 bb51c45a ada.numerics%s
+D a-nudira.ads		20200819050642 5984dff3 ada.numerics.discrete_random%s
+D a-nudira.adb		20200819050642 0bfd6ec4 ada.numerics.discrete_random%b
+D a-stream.ads		20200819050642 119b8fb3 ada.streams%s
+D a-tags.ads		20200819050643 edddc8f0 ada.tags%s
+D a-textio.ads		20200819050643 aef4d56d ada.text_io%s
+D a-tiinio.ads		20200819050643 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20200819050643 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20200819050643 eff36322 ada.unchecked_deallocation%s
+D alea.ads		20221110084455 9fe1c6b1 alea%s
+D alea.adb		20221110084455 ca5296b2 alea%b
+D evaluer_alea_lca.adb	20221203093145 54e21653 evaluer_alea_lca%b
+D interfac.ads		20200819050644 5ab55268 interfaces%s
+D i-cstrea.ads		20200819050644 e53d8b8e interfaces.c_streams%s
+D lca.ads		20221121173615 c45cbbcd lca%s
+D lca.adb		20221121173531 95c86f8c lca%b
+D sda_exceptions.ads	20221110084456 58fab764 sda_exceptions%s
+D system.ads		20200819050647 085b6ffb system%s
+D s-conca3.ads		20200819050645 0b705ca5 system.concat_3%s
+D s-crtl.ads		20200819050645 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200819050645 54135002 system.exception_table%s
+D s-ficobl.ads		20200819050645 078245e4 system.file_control_block%s
+D s-imguns.ads		20200819050645 9ff43cf7 system.img_uns%s
+D s-parame.ads		20200819050646 4752c4cb system.parameters%s
+D s-rannum.ads		20200819050646 99ade2f2 system.random_numbers%s
+D s-rannum.adb		20200819050646 5f999925 system.random_numbers%b
+D s-ransee.ads		20200819050646 01a57b33 system.random_seed%s
+D s-secsta.ads		20200819050646 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200819050646 a7318a92 system.soft_links%s
+D s-stache.ads		20200819050646 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200819050646 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200819050646 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200819050646 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200819050646 5ecf7212 system.unsigned_types%s
+D s-valint.ads		20200819050646 b5ff6963 system.val_int%s
+D s-valuns.ads		20200819050646 35067db9 system.val_uns%s
+D s-wchcon.ads		20200819050646 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [evaluer_alea_lca standard 9 11 none]
+G r i none [evaluer_alea_lca standard 9 11 none] [lca standard 8 9 none]
+G r i none [evaluer_alea_lca standard 9 11 none] [alea standard 5 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 17|1r6 1r32 2r6 2r32 3r6 3r32
+X 2 a-comlin.ads
+36K13*Command_Line 144e21 17|3w10 3r36
+39V13*Argument_Count{natural} 17|109s12
+52V13*Argument{string} 17|113s41 114s42
+62V13*Command_Name{string} 17|18s40
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[12|46] 17|2w10 2r36
+X 8 a-nudira.adb
+53V16 Random[30|83]{integer} 31|393b13[16|7[17|73]]
+65V16 Random[30|83]{integer} 31|393b13[16|7[17|73]]
+X 11 a-textio.ads
+57K13*Text_IO 727e16 17|1w10 1r36
+264U14*New_Line 17|17s17 19s17 22s17 33s17
+465U14*Put 17|30s17 31s17
+508U14*Put_Line 17|18s17 20s17 21s17
+X 12 a-tiinio.ads
+80U14*Put 17|32s17[4|18]
+X 15 alea.ads
+5k9*Alea 13e9 17|5w6 74r29
+11U19 Get_Random_Number 17|82s13[73]
+X 17 evaluer_alea_lca.adb
+9U11*Evaluer_Alea_LCA 9b11 126l5 126t21
+11K13 LCA_test[20|8] 12r9 77r9
+15U19 Afficher_Usage 15b19 23l13 23t27 110s17
+28U19 Afficher_Variable 28b19 28>38 28>51 28>71 34l13 34t30 117s17 118s17
+. 123s17 124s17
+28a38 Nom{string} 30r22
+28i51 Valeur{integer} 32r22
+28i71 Largeur_Valeur{integer} 32r30
+63U19 Calculer_Statistiques 63b19 64>17 65>17 66<17 66<22 101l13 101t34 120s17
+64i17 Borne{integer} 68r24 74r38
+65i17 Taille{integer} 68r38 69r45 70r49 71r62 81r21 92r21
+66i17 Min{integer} 69r30 69r38 71r33 71r49 89m9 95r37 96m17
+66i22 Max{integer} 70r34 70r42 71r40 71r55 90m9 93r34 94m17
+73K25 Mon_Alea[15|5] 75r21
+77p5 L{20|10P14[11]} 80m29 80r29 83r33 84m29 84r29 86m29 86r29 86r55 89r26
+. 90r26 93r26 94r34 95r29 96r34 97r36
+78i5 Nombre_alea{integer} 82m31 83r36 84r32 86r32 86r58 89r29 90r29
+81i13 i{integer}
+92i13 i{integer} 93r29 94r37 95r32 96r37 97r39
+105i9 Min{integer} 120m55 123r43
+105i14 Max{integer} 120m60 124r43
+106i9 Borne{integer} 113m17 117r46 120r40
+107i9 Taille{integer} 114m17 118r46 120r47
+X 18 interfac.ads
+74M9*Unsigned_32
+77M9*Unsigned_64
+X 20 lca.ads
+5+14 T_Cle 17|11r34
+6+14 T_Donnee 17|11r52
+8k9*LCA 17|6w6 11r29 20|82e8
+10P14 T_LCA 17|77r18[11]
+13U19 Initialiser 17|80s17[11]
+29U19 Enregistrer 17|84s17[11] 86s17[11]
+42V18 Cle_Presente{boolean} 17|83s20[11] 97s23[11]
+47V18 La_Donnee{integer} 17|86s45[11] 89s16[11] 90s16[11] 93s16[11] 94s24[11]
+. 95s19[11] 96s24[11]
+X 22 sda_exceptions.ads
+2K9*SDA_Exceptions 17|4w6 4r32 22|6e19
+X 30 s-rannum.ads
+75V13*Random{18|74M9} 31|221i21
+76V13*Random{18|77M9} 31|221i21
+

@@ -1,0 +1,106 @@
+module minicraps(rst, clk, on, bregin[3..0], adin[7..0] : 
+	abus[31..0], bbus[31..0], rambus[31..0], dbus[31..0], pc[31..0], ir[31..0], flags[3..0], etats[4..0])
+  
+	// on = 1 : mode exécution / on = 0 : mode lecture (registres et ram)
+	// on = 0 : on lit la mémoire sur rambus à l'adresse entrée sur adin
+	// on = 0 : on lit sur bbus le registre dont le numéro est entré sur bregin
+   
+	// horloge active seulement quand on = 1
+	clkon = clk*on
+   
+	// REGISTRES
+	registres(rst, clkon,  areg[3..0], breg[3..0], dreg[3..0], dbus[31..0]: abus[31..0], bbus[31..0], pc[31..0], ir[31..0]) 
+   
+	// on = 0 : on lit sur bbus le registre dont le numéro est entré sur bregin
+	// on = 1 : on lit sur bbus le registre dont le numéro bregseq est fourni par le sequenceur
+	breg[3..0] = on*bregseq[3..0] + /on*bregin[3..0]
+   
+	// UAL
+	ual(abus[31..0], bbus[31..0], ualCmd[3..0]: ualbus[31..0], ualN, ualZ, ualV, ualC) 
+   
+	// FLAGS
+	N := ualN on clkon reset when rst enabled when setflags
+	Z := ualZ on clkon reset when rst enabled when setflags
+	V := ualV on clkon reset when rst enabled when setflags
+  	C := ualC on clkon reset when rst enabled when setflags
+
+	flags[3..0] = N & Z & V & C
+   
+	// RAM 1K (256 mots de 32 bits)
+	// on = 0 : on lit la mémoire sur rambus à l'adresse entrée sur adin
+	// on = 1 : on lit la mémoire sur rambus à l'adresse fournie par abus
+	adr[7..0] = abus[7..0]*on + adin[7..0]*/on
+	$ram_aread_swrite(clkon, write, adr[7..0], dbus[31..0] : rambus[31..0])
+   
+	// DBUS : affectation tristate - avantage : l'exclusité entre les termes when est vérifiée
+	// mieux que l'affectation classique :  
+	// dbus[31..0] = ualbus[31..0]*/dbusIn[1]*dbusIn[0] + rambus[31..0]*dbusIn[1]*/dbusIn[0] + bbus[31..0]*dbusIn[1]*dbusIn[0]
+   
+	dbus[31..0] = ualbus[31..0] output enabled when /dbusIn[1]*dbusIn[0]		
+	dbus[31..0] = rambus[31..0] output enabled when dbusIn[1]*/dbusIn[0]
+	dbus[31..0] = bbus[31..0] output enabled when dbusIn[1]*dbusIn[0]
+  
+	// SEQUENCEUR
+	// Remplacer les 0 par les nouveaux états ajoutés pour l'accès mémoire et branch
+	etats[4..0] = fetch & decode & pcplus1 & 0 & 0
+	sequenceur(rst, clkon, ir[31..16] : fetch, decode, pcplus1, areg[3..0], bregseq[3..0], dreg[3..0], ualCmd[3..0], dbusIn[1..0], write, setflags)
+   
+end module
+
+module registres (rst, clk, areg[3..0], breg[3..0], dreg[3..0], datain[31..0] : a[31..0], b[31..0], pc[31..0], ir[31..0])
+
+decoder4to16(areg[3..0]: asel[15..0])
+decoder4to16(breg[3..0]: bsel[15..0])
+decoder4to16(dreg[3..0]: dsel[15..0])
+
+r0[31..0] = "00000000000000000000000000000000"
+r1[31..0] = "00000000000000000000000000000001"
+r2[31..0] := datain[31..0] on clk, reset when rst, enabled when dsel[2]
+r3[31..0] := datain[31..0] on clk, reset when rst, enabled when dsel[3]
+r4[31..0] := datain[31..0] on clk, reset when rst, enabled when dsel[4]
+r5[31..0] := datain[31..0] on clk, reset when rst, enabled when dsel[5]
+r6[31..0] := datain[31..0] on clk, reset when rst, enabled when dsel[6]
+r7[31..0] := datain[31..0] on clk, reset when rst, enabled when dsel[7]
+r12[31..0] := datain[31..0] on clk, reset when rst, enabled when dsel[12]
+r13[31..0] := datain[31..0] on clk, reset when rst, enabled when dsel[13]
+r14[31..0] := datain[31..0] on clk, reset when rst, enabled when dsel[14]
+r15[31..0] := datain[31..0] on clk, reset when rst, enabled when dsel[15]
+
+a[31..0] = asel[0]*r0[31..0] + asel[1]*r1[31..0] + asel[2]*r2[31..0] + asel[3]*r3[31..0] + asel[4]*r4[31..0] + asel[5]*r5[31..0] + asel[6]*r6[31..0] + asel[7]*r7[31..0] + asel[12]*r12[31..0] + asel[13]*r13[31..0] + asel[14]*r14[31..0] + asel[15]*r15[31..0]
+b[31..0] = bsel[0]*r0[31..0] + bsel[1]*r1[31..0] + bsel[2]*r2[31..0] + bsel[3]*r3[31..0] + bsel[4]*r4[31..0] + bsel[5]*r5[31..0] + bsel[6]*r6[31..0] + bsel[7]*r7[31..0] + bsel[12]*r12[31..0] + bsel[13]*r13[31..0] + bsel[14]*r14[31..0] + bsel[15]*r15[31..0]
+
+ir[31..0] = r15[31..0]
+pc[31..0] = r14[31..0]
+end module
+
+module sequenceur(rst, clk, ir[31..16] : fetch, decode, pcplus1, areg[3..0], breg[3..0], dreg[3..0],
+ualCmd[3..0], dbusIn[1..0], write, setFlags)
+
+fetch := pcplus1 on clk set when rst
+decode := fetch on clk reset when rst
+pcplus1 := decode2pcplus1 + decode2pcplus1set + adresse2pcplus1load + adresse2pcplus1store on clk reset when rst
+decode2pcplus1 = decode*/ir[31]
+decode2pcplus1set = decode*ir[31]*ir[30]*/ir[29]*/ir[28]
+adresse := decode2adresse on clk reset when rst
+decode2adresse = decode*ir[31]*/ir[30]*/ir[29]
+adresse2pcplus1load = adresse*/ir[28]
+adresse2pcplus1store = adresse*ir[28]
+
+setFlags = decode*/ir[31]
+
+areg[3..0] = fetch*"1110" + decode2pcplus1*ir[23..20] + pcplus1*"1110" + decode2pcplus1set*"1111" + decode2adresse*ir[23..20] + adresse2pcplus1load*"1100" + adresse2pcplus1store*"1100"
+breg[3..0] = fetch*"0000" + decode2pcplus1*ir[19..16] + pcplus1*"0001" + decode2pcplus1set*"0000" + decode2adresse*ir[19..16] + adresse2pcplus1load*"0000" + adresse2pcplus1store*ir[27..24]
+dreg[3..0] = fetch*"1111" + decode2pcplus1*ir[27..24] + pcplus1*"1110" + decode2pcplus1set*ir[27..24] + decode2adresse*"1100" + adresse2pcplus1load*ir[27..24] + adresse2pcplus1store*"0000"
+ualCmd[3..0] = fetch*"0000" + decode2pcplus1*ir [31..28] + pcplus1*"0000" + decode2pcplus1set*ir[31..28] + decode2adresse*"0000" + adresse2pcplus1load*"0000" + adresse2pcplus1store*"0000"
+dbusIn[1..0] = fetch*"10" + decode2pcplus1*"01" + pcplus1*"01" + decode2pcplus1set*"01" + decode2adresse*"01" + adresse2pcplus1load*"10" + adresse2pcplus1store*"11"
+write = 0 + adresse2pcplus1store
+end module
+
+module ual (a[31..0], b[31..0], cmd[3..0] : s[31..0], N, Z, V, C)
+	addsub32(a[31..0], b[31..0], cmd[0] : s1[31..0], C, V)
+   ucmp32(s[31..0], "00000000000000000000000000000000" : sup, Z)
+	decoder4to16(cmd[3..0]: dcmd[15..0])
+	Sigextend24[31..0] = a[23]*"11111111"&a[23..0]
+	s[31..0] = Sigextend24[31..0]*dcmd[12] + s1[31..0]*/dcmd[12]
+   N = s[31]
+end module

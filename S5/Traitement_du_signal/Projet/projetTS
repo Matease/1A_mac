@@ -1,0 +1,5 @@
+%Partie1
+clc;
+clear all;
+close all;
+R = randi(1,1);

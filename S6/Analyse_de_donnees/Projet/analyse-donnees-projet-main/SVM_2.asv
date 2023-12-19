@@ -1,0 +1,28 @@
+function [X_VS, w, c, code_retour] = SVM_2(X,Y)
+
+% Calculer la matrice de Gram
+K = X * X';
+
+% Résoudre le problème d'optimisation duale
+H = (Y * Y') .* K;
+f = -ones(size(Y));
+Aeq = Y';
+beq = 0;
+sup = zeros(size(Y));
+inf = ones(size(Y)) .* (1 / 1);
+[alpha, ~, exitflag] = quadprog(H, f, [], [], Aeq, beq, sup, inf);
+
+% Trouver les vecteurs de support
+tolerance = 1e-6;
+X_VS_index = find(alpha > tolerance & alpha < 1 - tolerance);
+X_VS = X(X_VS_index, :);
+
+% Calculer le biais c
+c = mean(Y(X_VS_index) - K(X_VS_index, X_VS_index) * alpha(X_VS_index) .* Y(X_VS_index));
+
+% Calculer le vecteur de poids w
+w = X(X_VS_index, :)'*(alpha(X_VS_index) .* Y(X_VS_index));
+
+code_retour = exitflag;
+
+end

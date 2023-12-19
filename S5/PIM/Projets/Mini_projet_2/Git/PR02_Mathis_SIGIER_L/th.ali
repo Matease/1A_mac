@@ -1,0 +1,99 @@
+V "GNAT Lib v2020"
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_STANDARD_STORAGE_POOLS
+
+U th%b			th.adb			f88f72da NE OO PK GE IU
+
+U th%s			th.ads			bc0f1038 BN EE NE OO PK GE
+W ada%s			ada.ads			ada.ali
+Z ada.unchecked_deallocation%s
+W lca%s			lca.adb			lca.ali
+Z sda_exceptions%s	sda_exceptions.ads	sda_exceptions.ali
+
+D ada.ads		20200819050642 76789da1 ada%s
+D a-unccon.ads		20200819050643 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20200819050643 eff36322 ada.unchecked_deallocation%s
+D lca.ads		20221121173615 c45cbbcd lca%s
+D lca.adb		20221121173531 95c86f8c lca%b
+D sda_exceptions.ads	20221110084456 58fab764 sda_exceptions%s
+D system.ads		20200819050647 085b6ffb system%s
+D s-exctab.ads		20200819050645 54135002 system.exception_table%s
+D s-stalib.ads		20200819050646 6b7a13f2 system.standard_library%s
+D th.ads		20221130173853 7853abf5 th%s
+D th.adb		20221130175147 80dcd92f th%b
+G a e
+G c Z s b [th standard 10 9 none]
+X 4 lca.ads
+5+14 T_Cle 10|55r30
+6+14 T_Donnee 10|55r44
+8k9*LCA 82e8 10|1w6 55r26
+10P14 T_LCA 10|56r47[55]
+13U19 Initialiser 11|9s13[10|55]
+18V18 Est_Vide{boolean} 11|18s17[10|55]
+22V18 Taille{integer} 11|30s32[10|55]
+29U19 Enregistrer 11|39s9[10|55]
+36U19 Supprimer 11|46s9[10|55]
+42V18 Cle_Presente{boolean} 11|54s16[10|55]
+47V18 La_Donnee{10|5+10} 11|65s16[10|55]
+51U19 Vider 11|71s13[10|55]
+58u19 Pour_Chaque 11|82r19[10|55]
+X 10 th.ads
+4+10 T_Cle 7r37 26r56 31r54 36r53 41r49 50r42 55r37 11|35r56 42r54 49r52
+. 61r49
+5+10 T_Donnee 26r76 41r63 50r61 55r54 11|35r76 61r63
+6i5 Capacite{integer} 56r28 11|8r21 17r21 29r21 53r21 70r21 77r29 85r21
+7V19 Hachage{integer} 7>28 11|38s36 45s36 64s36
+7*28 Cle{4+10}
+10k9*TH 4z10 5z10 6z5 7z19 55E13 58l5 58e7 11|2b14 90l5 90t7
+12A10*T_TH(4|10P14[55]) 15r38 19r33 22r31 26r40 31r38 36r37 41r33 44r35 51r37
+. 56c10 11|6r36 13r32 25r31 35r40 42r38 49r36 61r33 68r34 80r37
+15U15*Initialiser 15<28 11|6b15 11l9 11t20
+15a28 Sda{12A10} 16r34 11|6b27 9m25 9r25
+19V14*Est_Vide{boolean} 16s25 19>24 23s44 45s17 11|13b14 23l9 23t17
+19a24 Sda{12A10} 11|13b23 18r26
+22V14*Taille{integer} 22>22 23r21 23r59 28s67 28s79 29s61 29s76 32s21 32s35
+. 11|25b14 33l9 33t15
+22a22 Sda{12A10} 23r53 11|25b22 30r39
+26U15*Enregistrer 26=27 26>47 26>64 11|35b15 40l9 40t20
+26a27 Sda{12A10} 27r35 27r60 28r49 28r74 28r86 29r44 29r69 29r83 11|35b27
+. 39m21 39r21
+26*47 Cle{4+10} 27r40 27r65 28r54 29r49 11|35b47 38r44 39r36
+26*64 Donnee{5+10} 27r71 11|35b64 39r41
+31U15*Supprimer 31=25 31>45 11|42b15 47l9 47t18
+31a25 Sda{12A10} 32r28 32r42 33r42 11|42b25 46m19 46r19
+31*45 Cle{4+10} 33r47 11|42b45 45r44 46r34
+36V14*Cle_Presente{boolean} 27s21 28s35 29s30 33s29 36>28 36>44 11|49b14
+. 59l9 59t21
+36a28 Sda{12A10} 11|49b27 54r29
+36*44 Cle{4+10} 11|49b43 54r37
+41V14*La_Donnee{5+10} 27s50 41>24 41>40 11|61b14 66l9 66t18
+41a24 Sda{12A10} 11|61b24 65r26
+41*40 Cle{4+10} 11|61b40 64r44 65r41
+44U15*Vider 44=22 11|68b15 73l9 73t14
+44a22 Sda{12A10} 45r26 11|68b21 71m19 71r19
+47V14*Hachage_modulo{integer} 47>30 11|38s21 45s21 64s21 75b14 78l9 78t23
+47i30 module{integer} 11|75b30 77r17
+50U24 Traiter 50>33 50>50 11|82r31
+50*33 Cle{4+10}
+50*50 Donne{5+10}
+51u15*Pour_Chaque 51>28 11|80b15 88l9 88t20
+51a28 Sda{12A10} 11|80b28 86r29
+55K13 LCAth[4|8] 56r41 11|4r9 82r13
+X 11 th.adb
+8i13 i{integer} 9r29
+14b9 test_vide{boolean} 16m9 19m17 22r16
+17i13 i{integer} 18r30
+26i9 TailleTH{integer} 28m9 30m13 30r23 32r16
+29i13 i{integer} 30r43
+36i9 position{integer} 38m9 39r25
+43i9 position{integer} 45m9 46r23
+50b9 test_present{boolean} 52m9 58r16
+53i13 i{integer} 54r33
+62i9 position{integer} 64m9 65r30
+70i13 i{integer} 71r23
+81U19 LCA_Pour_Chaque[4|58] 86s13
+85i13 i{integer} 86r33
+

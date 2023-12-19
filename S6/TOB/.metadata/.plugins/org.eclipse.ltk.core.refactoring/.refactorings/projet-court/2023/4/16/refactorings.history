@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;Joueurdutour&apos; in &apos;allumettes.Arbitre.arbitrer(...)&apos; to &apos;Joueurj&apos;&#x0A;- Original project: &apos;projet-court&apos;&#x0A;- Original element: &apos;allumettes.Arbitre.arbitrer(Jeu).Joueurdutour&apos;&#x0A;- Renamed element: &apos;Joueurdutour&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;Joueurdutour&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;allumettes{Arbitre.java[Arbitre~arbitrer~QJeu;@Joueurdutour!766!785!773!784!QJoueur;!0!false" name="Joueurj" references="true" stamp="1681828553128" version="1.0"/>
+</session>

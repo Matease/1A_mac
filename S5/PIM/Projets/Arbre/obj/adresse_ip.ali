@@ -1,0 +1,85 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -gnatc
+A -mtune=generic
+A -march=x86-64
+P NO FX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U adresse_ip%s		adresse_ip.ads		c4fd7829 EE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-charac.ads		20210520051128 2d3ec45b ada.characters%s
+D a-chlat1.ads		20210520051128 66457d31 ada.characters.latin_1%s
+D a-finali.ads		20210520051128 bf4f806b ada.finalization%s
+D a-inteio.ads		20210520051128 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-strmap.ads		20210520051130 5a88892a ada.strings.maps%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-strunb.ads		20210520051130 03325227 ada.strings.unbounded%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
+D adresse_ip.ads	20230105073922 0fdc1150 adresse_ip%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-atocou.ads		20210520051132 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-finroo.ads		20210520051132 4ff27390 system.finalization_root%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a Z
+X 1 ada.ads
+16K9*Ada 20e8 15|1r6 1r33 2r6 2r23 3r6 3r23 4r6 4r31
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[14|46] 15|4w10 4r35
+X 8 a-string.ads
+16K13*Strings 35e16 15|1r10 1r37 2w10 2r27
+X 11 a-strunb.ads
+83K21*Unbounded 765e26 15|1w18 1r45
+88R9*Unbounded_String<4|43R9> 744e15 15|21r67
+X 13 a-textio.ads
+58K13*Text_IO 725e16 15|3w10 3r27
+65P9*File_Type 15|18r75
+X 15 adresse_ip.ads
+6K9*Adresse_IP 32E10 37l5 37e15
+8M10*T_adresse_ip 11r42 18r43 21r46 24r39 24r65 25r31 28r27 28r49 32c10 34r24
+. 35r31
+11U15*Initialiser 11<28 11>57 12>14 12>35 12>56
+11m28 Adresse{8M10}
+11i57 Octet1{integer} 14r21 14r32
+12i14 Octet2{integer} 14r55 14r66
+12i35 Octet3{integer} 15r18 15r29
+12i56 Octet4{integer} 15r52 15r63
+18U15*Lire_Adresse 18<29 18=58
+18m29 Adresse{8M10}
+18p58 Fichier{13|65P9}
+21V14*Convertir_Adresse{11|88R9} 21>33
+21m33 Adresse{8M10}
+24V14*Compatible{boolean} 24>26 24>53 25>14
+24m26 Adresse{8M10}
+24m53 Masque{8M10}
+25m14 Destination{8M10}
+28V15*">="{boolean} 28>20 28>41
+28m20 Left{8M10}
+28m41 Right{8M10}
+34m5 UN_OCTET{8M10}
+35m9 POIDS_FORT{8M10}
+

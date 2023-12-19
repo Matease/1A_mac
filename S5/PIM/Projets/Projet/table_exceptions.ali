@@ -1,0 +1,22 @@
+V "GNAT Lib v2020"
+P ZX
+
+RN
+RV NO_ELABORATION_CODE
+
+U table_exceptions%s	table_exceptions.ads	9a1b10e6 EE OO PK
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20200819050642 76789da1 ada%s
+D a-unccon.ads		20200819050643 0e9b276f ada.unchecked_conversion%s
+D system.ads		20200819050647 085b6ffb system%s
+D s-exctab.ads		20200819050645 54135002 system.exception_table%s
+D s-stalib.ads		20200819050646 6b7a13f2 system.standard_library%s
+D table_exceptions.ads	20221217112910 9a1b10e6 table_exceptions%s
+G a e
+X 6 table_exceptions.ads
+2K9*Table_Exceptions 6l5 6e21
+4X5*Destination_Absente_Exception
+

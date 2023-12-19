@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/Users/mathissigier/Documents/Etudes/1A_SN/S6/TOB/tps/TP15"/>
+			<item value="/Users/mathissigier/Downloads/test"/>
+			<item value="/Users/mathissigier/Documents/Etudes/1A_SN/S6/TOB/tps/TP13"/>
+			<item value="/Users/mathissigier/Documents/Etudes/1A_SN/S6/TOB/tps/TP12"/>
+			<item value="/Users/mathissigier/Documents/Etudes/1A_SN/S6/TOB/tps/TP10"/>
+			<item value="/Users/mathissigier/Documents/Etudes/1A_SN/S6/TOB/tps/projet-court"/>
+			<item value="/Users/mathissigier/Documents/Etudes/1A_SN/S6/TOB/projet-court"/>
+			<item value="/Users/mathissigier/Documents/Etudes/1A_SN/S6/TOB/Mini-projet (PR01)-20230208/mini-projet"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="427"/>
+		<item key="DIALOG_Y_ORIGIN" value="145"/>
+		<item key="DIALOG_WIDTH" value="586"/>
+		<item key="DIALOG_HEIGHT" value="528"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="CleanDialogSettings">
+		<item key="TOGGLE_SELECTED" value="true"/>
+		<item key="DIALOG_WIDTH" value="540"/>
+		<item key="DIALOG_HEIGHT" value="367"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+</section>

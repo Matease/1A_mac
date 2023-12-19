@@ -1,0 +1,129 @@
+V "GNAT Lib v2020"
+M P W=b
+P SS ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U multiplications%b	multiplications.adb	e571805e NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+Z system.concat_4%s	s-conca4.adb		s-conca4.ali
+Z system.concat_5%s	s-conca5.adb		s-conca5.ali
+Z system.concat_7%s	s-conca7.adb		s-conca7.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+
+D ada.ads		20200819050642 76789da1 ada%s
+D a-calend.ads		20200819050641 474d9720 ada.calendar%s
+D a-except.ads		20200819050642 a7106115 ada.exceptions%s
+D a-inteio.ads		20200819050642 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20200819050642 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20200819050642 bb51c45a ada.numerics%s
+D a-nudira.ads		20200819050642 5984dff3 ada.numerics.discrete_random%s
+D a-nudira.adb		20200819050642 0bfd6ec4 ada.numerics.discrete_random%b
+D a-stream.ads		20200819050642 119b8fb3 ada.streams%s
+D a-tags.ads		20200819050643 edddc8f0 ada.tags%s
+D a-textio.ads		20200819050643 aef4d56d ada.text_io%s
+D a-tiinio.ads		20200819050643 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20200819050643 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200819050644 5ab55268 interfaces%s
+D i-cstrea.ads		20200819050644 e53d8b8e interfaces.c_streams%s
+D multiplications.adb	20221010131112 e44a0364 multiplications%b
+D system.ads		20200819050647 085b6ffb system%s
+D s-conca4.ads		20200819050645 7e642b20 system.concat_4%s
+D s-conca5.ads		20200819050645 875e432e system.concat_5%s
+D s-conca7.ads		20200819050645 fcc75b1f system.concat_7%s
+D s-crtl.ads		20200819050645 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200819050645 54135002 system.exception_table%s
+D s-ficobl.ads		20200819050645 078245e4 system.file_control_block%s
+D s-imgint.ads		20200819050645 02dbe0c2 system.img_int%s
+D s-imguns.ads		20200819050645 9ff43cf7 system.img_uns%s
+D s-parame.ads		20200819050646 4752c4cb system.parameters%s
+D s-rannum.ads		20200819050646 99ade2f2 system.random_numbers%s
+D s-rannum.adb		20200819050646 5f999925 system.random_numbers%b
+D s-ransee.ads		20200819050646 01a57b33 system.random_seed%s
+D s-secsta.ads		20200819050646 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200819050646 a7318a92 system.soft_links%s
+D s-stache.ads		20200819050646 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200819050646 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200819050646 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200819050646 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200819050646 5ecf7212 system.unsigned_types%s
+D s-valuns.ads		20200819050646 35067db9 system.val_uns%s
+D s-wchcon.ads		20200819050646 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [multiplications standard 14 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 16|7r6 7r33 8r6 8r33 9r6 9r33 10r6 11r6 11r24 44r29
+X 2 a-calend.ads
+36K13*Calendar 409e17 16|9w10 9r37 11w10 11r28
+42I9*Time<222I9> 16|20r21
+56V13*Clock{42I9} 16|92s26 94s24
+106V14*"+"{42I9} 16|95s40
+112V14*"-"{duration} 16|95s46 96s24 97s42
+222I9 Time_Rep<long_long_integer>
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[12|46] 16|8w10 8r37
+X 6 a-numeri.ads
+16K13*Numerics 32e17 16|10r10 44r33
+X 7 a-nudira.ads
+44k22*Discrete_Random 81e33 16|10w19 44r42
+50R9 Generator<27|63R9> 16|47r43[43]
+52V13 Random{integer} 16|51s37[43]
+61U14 Reset<27|100p14> 16|55s17[43]
+X 8 a-nudira.adb
+53V16 Random[27|83]{integer} 28|393b13[16|43[58]]
+65V16 Random[27|83]{integer} 28|393b13[16|43[58]]
+X 11 a-textio.ads
+57K13*Text_IO 727e16 16|7w10 7r37
+381U14*Get 16|121s13
+465U14*Put 16|69s13 72s17 73s17 91s17 104s21 106s21 110s17 113s28 114s27
+. 115s27 116s31 117s35 120s13
+X 12 a-tiinio.ads
+59U14*Get 16|70s13[4|18] 74s17[4|18] 93s17[4|18]
+X 14 interfac.ads
+74M9*Unsigned_32
+77M9*Unsigned_64
+X 16 multiplications.adb
+14U11*Multiplications 14b11 124l5 124t20
+15e9 Rejouer{character} 65m9 121m17 122r27 122r42
+16i9 t{integer} 77m13 103m21 103r24 112r18 116r52 117r68
+16i12 nb1{integer} 84m36 86r31 87m51 90r24 91r93 98r30 102r22
+16i17 nb2{integer} 86r35 90m17
+17i9 res{integer} 93m21 102r26
+17i13 n{integer} 70m17 71r19 71r26 74m21 91r68 102r20 110r79 116r124 117r140
+17i16 z{integer} 98m25 110r104
+18o9 duree_tot{duration} 79m17 95m17 95r30
+19o9 duree_max{duration} 80m17 96r35 97m25
+20i9 Debut{2|42I9} 92m17 95r48 96r26 97r44
+20i16 Fin{2|42I9} 94m17 95r42 96r20 97r38
+25i17 Lower_Bound{integer} 41r53
+25i30 Upper_Bound{integer} 41r66
+28k17 Alea 25z17 25z30 36l13 36e17 39b22 56l13 56t17 59r21
+34U27*Get_Random_Number 34<46 49b27 52l21 52t38 84s17[58] 87s33[58]
+34i46 Resultat{integer} 49b46 51m25
+41I25 Intervalle{integer} 44r59
+43K26 Generateur_P[7|44] 45r21 47r30
+47r17 Generateur{7|50R9[43]} 51r45 55r23
+58K13 Mon_Alea[28] 60r13
+82i16 k{integer} 85r20 91r42
+X 27 s-rannum.ads
+75V13*Random{14|74M9} 28|221i21
+76V13*Random{14|77M9} 28|221i21
+

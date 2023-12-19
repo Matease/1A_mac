@@ -1,0 +1,6 @@
+table_routage_arbre.adb:27:34: error: prefix for selection is not a name
+table_routage_arbre.adb:28:55: error: prefix for selection is not a name
+table_routage_arbre.adb:29:47: error: prefix for selection is not a name
+table_routage_arbre.adb:35:37: error: prefix for selection is not a name
+table_routage_arbre.adb:36:55: error: prefix for selection is not a name
+table_routage_arbre.adb:37:47: error: prefix for selection is not a name

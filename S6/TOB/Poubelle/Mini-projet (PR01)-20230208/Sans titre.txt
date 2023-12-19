@@ -1,0 +1,2 @@
+Clone les fichiers (sujet tp4.a ) dans un dossier, copier coller les dossiers
+Ouvrir le projet avec eclipse dans un nouveau workspace, puis faire commit et push.

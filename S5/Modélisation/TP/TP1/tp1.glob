@@ -1,0 +1,33 @@
+DIGEST 599571d009fd1ea888009825ec991109
+Ftp1
+R93:101 Naturelle <> <> lib
+sec 145:163 <> LogiquePropositions
+var 228:228 LogiquePropositions A
+var 230:230 LogiquePropositions B
+var 232:232 LogiquePropositions C
+var 234:234 LogiquePropositions E
+var 236:236 LogiquePropositions Y
+var 238:238 LogiquePropositions R
+prf 258:262 <> Thm_0
+R272:275 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R267:270 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R266:266 tp1 <> LogiquePropositions.A var
+R271:271 tp1 <> LogiquePropositions.B var
+R277:280 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R276:276 tp1 <> LogiquePropositions.B var
+R281:281 tp1 <> LogiquePropositions.A var
+R310:310 tp1 <> LogiquePropositions.A var
+R331:331 tp1 <> LogiquePropositions.B var
+prf 359:363 <> Thm_1
+R367:367 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R381:386 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R393:393 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R368:368 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R375:379 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R370:373 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R369:369 tp1 <> LogiquePropositions.A var
+R374:374 tp1 <> LogiquePropositions.B var
+R380:380 tp1 <> LogiquePropositions.C var
+R388:391 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R387:387 tp1 <> LogiquePropositions.B var
+R392:392 tp1 <> LogiquePropositions.C var
